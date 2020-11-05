@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Intro Rust";
+  src: url("https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FIntroRust-Base.otf")
+    format("truetype");
+}
+
+body {
+  background-color: White;
+  color: Black;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1.home-title {
+  font-family: "Intro Rust", "Courier New", sans-serif;
+  font-size: 75px;
+  line-height: 68px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px !important;
+}
+
+h2.home-subtitle {
+  font-family: "Roboto Mono", monospace;
+  font-size: 28px;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+}
+
+/*home sections*/
+
+div#page section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+section#top #top-bg {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fhomebg3.jpg?v=1604615643373);
+  background-position: 0 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section#top #titles {
+  max-width: 35%;
+  padding-left: 30px;
+  padding-top: 25px;
+}
