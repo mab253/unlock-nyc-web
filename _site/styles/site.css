@@ -31,6 +31,33 @@ h2.home-subtitle {
   margin: 0;
 }
 
+#menu {
+  width: 100%;
+  background-color: #23296a;
+  padding: 10px;
+  position: absolute;
+  bottom: -72px;
+  color: #f023c2;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+#menu.sticky {
+  position: fixed;
+  top: 0;
+  bottom: initial;
+}
+
+#menu ul {
+  list-style-type: none;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 50px;
+}
+
 /*home sections*/
 
 div#page section {
@@ -55,5 +82,4 @@ section#top #titles {
   max-width: 35%;
   padding-left: 30px;
   padding-top: 25px;
-  color: Red;
 }

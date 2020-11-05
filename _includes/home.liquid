@@ -8,8 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
   </head>
   <body>
+    
   
   <div id="page">
+    <div id="menu">
+      <ul>
+        <li>Home</li>
+        <li>About Us</li>
+      </ul>
+    </div>
     <section id="top">
       <div id="top-bg"></div>
       <div id="titles">
@@ -24,7 +31,21 @@
   
   
   {{ content }}
-    
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script>
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        let windowHeight = $(window).height();
+        if ($(window).scrollTop() > windowHeight) {
+          $("#menu").addClass("sticky");
+        } else {
+          $("#menu").removeClass("sticky");
+        }
+      })
+    });
+  </script>
   </body>
   
 </html>
