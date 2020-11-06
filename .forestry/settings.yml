@@ -7,7 +7,6 @@ sections:
 - type: document
   path: about.md
   label: About Us
-  match: "**/*"
 - type: directory
   path: home-slides
   label: Stories Slider
