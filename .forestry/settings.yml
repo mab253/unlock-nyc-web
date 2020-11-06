@@ -9,6 +9,7 @@ sections:
   label: Home Stories Slides
   create: all
   match: "**/*"
+  exclude: home-slides.json
 - type: document
   path: about.md
   label: About Us
