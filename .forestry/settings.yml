@@ -12,7 +12,6 @@ sections:
 - type: document
   path: about.md
   label: About Us
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
