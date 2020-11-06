@@ -6,4 +6,4 @@ bg_img: "/uploads/storytelling_website-6.png"
 
 Brokers often pretend they need to check whether the landlord accepts vouchers to get you off the phone, and then never call you back. If you experience this kind of behavior, **you can report that!**
 
-Housing discrimination is often hiding in plain sight. Scroll down to **learn the sneaky phrases** brokers often use to discriminate.
+Housing discrimination is often hiding in plain sight. **Learn the sneaky phrases** brokers often use to discriminate.
