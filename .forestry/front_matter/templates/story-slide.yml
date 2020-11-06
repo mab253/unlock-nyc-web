@@ -8,3 +8,5 @@ fields:
     maxSize: 64
   label: Background Image
   description: The Icons8 image with the person and the line - image only, no text!
+pages:
+- home-slides/slide1.md
