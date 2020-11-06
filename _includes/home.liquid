@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Unlock NYC - {{ pageTitle }}</title>
     <link rel="stylesheet" href="{{ linkedCSS }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
         <h1 class="home-title">Unlock NYC</h1>
         <h2 class="home-subtitle">fighting for fair housing</h2>
         <br>
-        <h2 class="home-subtitle" style="font-size: 17px; max-width: 80%;">more copy? words words words words words words words words words words words words words 
+        <h2 class="home-info">more copy? words words words words words words words words words words words words words 
         words words words words words words words words words words words</h2>
       </div>
     </section>
@@ -111,6 +112,9 @@
   <script src="/scripts/slider.js"></script> 
   <script>
     $(document).ready(function() {
+    
+      slideTextCheck();
+      
       $(window).scroll(function() {
         let windowHeight = $(window).height();
         if ($(window).scrollTop() > windowHeight) {
@@ -118,7 +122,17 @@
         } else {
           $("#menu").removeClass("sticky");
         }
-      })
+      }) // end scroll function
+      
+      function slideTextCheck() {
+        console.log("checking slides");
+        $("#slider div.slide-text").each(function() {
+          let slideTitle = $(this).children("h1").height();
+          if (slideTitle > 320) {
+            $(this).addClass("longtitle");
+          }
+        });
+      }
     });
   </script>
   </body>
