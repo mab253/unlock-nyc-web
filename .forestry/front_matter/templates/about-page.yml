@@ -1,4 +1,10 @@
 ---
 label: About Page
 hide_body: false
-fields: []
+fields:
+- name: pageTitle
+  type: text
+  config:
+    required: false
+  label: Page Title
+  description: Shown in navigation only, at the top of the browser!
