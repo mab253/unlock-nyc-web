@@ -10,3 +10,4 @@ fields:
   description: The Icons8 character with the line - image only, no text!
 pages:
 - home-slides/slide1.md
+- home-slides/slide2.md
