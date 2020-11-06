@@ -4,7 +4,11 @@ $(document).ready(function () {
 
     var slideCount = $('#slider ul li').length;
     var slideWidth = $(window).width();
-    var slideHeight = $(window).height();
+    if ($(window).width() > 700) {
+      var slideHeight = $(window).height();
+    } else {
+      var slideHeight = 800;
+    }
     var sliderUlWidth = slideCount * slideWidth;
 
     $('#slider').css({ width: slideWidth, height: slideHeight });
@@ -22,10 +26,6 @@ $(document).ready(function () {
     $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
     $('#slider ul li').css({ width: slideWidth, height: slideHeight });
   });
-
-    setTimeout(function(){
-      $("#slider").css("opacity", 1);
-    }, 200);
 
     function moveLeft() {
       $('#slider ul').animate({
@@ -53,6 +53,10 @@ $(document).ready(function () {
     $('div.control_next').click(function () {
       moveRight();
       clearInterval(autoslide);
+    });
+  
+    $("#slider").on("swiperight",function(){
+      moveRight();
     });
 
 

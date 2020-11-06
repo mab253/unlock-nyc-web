@@ -1,7 +1,7 @@
 ---
 layout: layout.liquid
 linkedCSS: "/styles/site.css"
-pageTitle: About Us
+pageTitle: Home
 
 ---
 about us
