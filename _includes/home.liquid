@@ -25,8 +25,8 @@
         words words words words words words words words words words words</h2>
       </div>
     </section>
-    <section id="stories">
-      <div id="slider">
+    <!--<section id="stories">
+      <div class="story-slider" id="slider">
         <div class="control_next">></div>
         <div class="control_prev"><</div>
         <ul>
@@ -74,6 +74,22 @@
             <img class="storyline" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website%20(7).png?v=1604636383744">
           </li>
         </ul> 
+      </div>
+    </section>-->
+    <section id="stories-second">
+      <div class="story-slider" id="slider">
+        <div class="control_next">></div>
+        <div class="control_prev"><</div>
+        <ul>
+        {% for slide in collections.slides %}
+        <li>
+          <img class="storyline" src="https://raw.githubusercontent.com/mab253/unlock-nyc-web/main{{ slide.data.bg_img }}">
+          <div class="slide-text">
+          {{ slide.data.content }}
+          </div>
+        </li>
+        {% endfor %}
+        </ul>
       </div>
     </section>
     <section id="info" style="border-top: 1px solid Lightgray;">

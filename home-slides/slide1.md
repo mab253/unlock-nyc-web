@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/storytelling_website.png"
+bg_img: "/uploads/storytelling_website-2.png"
 
 ---
 # "They said my income and credit score were too low."
