@@ -34,58 +34,7 @@
         words words words words words words words words words words words</h2>
       </div>
     </section>
-    <!--<section id="stories">
-      <div class="story-slider" id="slider">
-        <div class="control_next">></div>
-        <div class="control_prev"><</div>
-        <ul>
-          <li>
-            <div class="slide-text">
-              <h1>"They said my income and credit score were too low."</h1>
-              <p>Ever been told "You need to make 40x the rent and have a 700 credit score?" 
-              If you have a voucher, income requirements typically don't apply to you, and landlords are often not allowed to ask for your credit score.
-              </p>
-              <p>Does this experience sound familiar? Scroll down to <strong>learn how to spot, record, and report discrimination.</strong></p>
-            </div>
-            <img class="storyline" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website.png?v=1604633790666">
-          </li>
-          <li>
-            <div class="slide-text">
-              <h1>"I was flat-out told, 'we don't take vouchers here.'"</h1>
-            </div>
-            <img class="storyline" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website%20(1).png?v=1604636378771">
-            </li>
-          <li>
-            <div class="slide-text">
-              <h1>"They said the unit was no longer available."</h1>
-            </div>
-            <img class="storyline" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website%20(2).png?v=1604636383744">
-          </li>
-          <li>
-            <div class="slide-text">
-              <h1>"'The landlord only takes Section 8, not CityFHEPS,' they said."</h1>
-            </div>
-            <img class="storyline" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website%20(3).png?v=1604636383744">
-          </li>
-          <li>
-            <div class="slide-text">
-              <h1>"'Only professionals live here,' they said. 'You must be working.'"</h1>
-            </div>
-            <img class="storyline" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website%20(4).png?v=1604636383744">
-          </li>
-          <li>
-            <img class="storyline" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website%20(5).png?v=1604636383744">
-          </li>
-          <li>
-            <img class="storyline" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website%20(6).png?v=1604636383744">
-          </li>
-          <li>
-            <img class="storyline" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website%20(7).png?v=1604636383744">
-          </li>
-        </ul> 
-      </div>
-    </section>-->
-    <section id="stories-second">
+    <section id="stories">
       <div class="story-slider" id="slider">
         <div class="control_next">></div>
         <div class="control_prev"><</div>
@@ -210,27 +159,32 @@
   
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
   <script src="/scripts/slider.js"></script> 
   <script>
     $(document).ready(function() {
     
       slideTextCheck();
       
-      $(window).scroll(function() {
-        let windowHeight = $(window).height();
-        if ($(window).scrollTop() > windowHeight) {
-          $("#menu").addClass("sticky");
-        } else {
-          $("#menu").removeClass("sticky");
-        }
-      }) // end scroll function
+      if($(window).width() > 700) {
+        $(window).scroll(function() {
+          let windowHeight = $(window).height();
+          if ($(window).scrollTop() > windowHeight) {
+            $("#menu").addClass("sticky");
+          } else {
+            $("#menu").removeClass("sticky");
+          }
+        }) // end scroll function
+      }
       
       function slideTextCheck() {
-        console.log("checking slides");
         $("#slider div.slide-text").each(function() {
           let slideTitle = $(this).children("h1").height();
           if (slideTitle > 320) {
             $(this).addClass("longtitle");
+          }
+          if ($(window).width() < 700) {
+            $(this).parent("li").children("img.storyline").css("top", slideTitle - 20);
           }
         });
       }
