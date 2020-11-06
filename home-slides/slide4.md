@@ -1,5 +1,5 @@
 ---
-bg_img: ''
+bg_img: "/uploads/storytelling_website-3.png"
 
 ---
 # "'The landlord only takes Section 8, not CityFHEPS,' they said."
