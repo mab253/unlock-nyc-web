@@ -40,6 +40,14 @@ h2.home-subtitle {
   margin: 0;
 }
 
+h2.home-info {
+  font-size: 17px; 
+  max-width: 80%;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+}
+
 #menu {
   width: 100%;
   background-color: #23296a;
@@ -200,6 +208,15 @@ div.slide-text h1 {
 div.slide-text p {
   font-size: 22px;
 }
+
+div.slide-text.longtitle {
+  width: 60% !important;
+  top: 12.5% !important;
+}
+
+div.slide-text.longtitle p {
+  max-width: 78% !important;
+}
   
 #slider ul li img.storyline {
   position: absolute;
@@ -210,6 +227,7 @@ div.slide-text p {
   left: 0;
   right: 0;
 }
+
 /*footer*/
 
 footer {
@@ -218,6 +236,19 @@ footer {
   background-color: #ffb400;
   color: Black;
   border-bottom: 20px solid Black;
+  box-sizing: border-box;
+}
+
+/*top banner sizing*/
+
+@media only screen and (max-width: 1350px) {
+  section#top #key-friend {
+    width: 250px;
+    left: 15%;
+  }
+  section#top #titles {
+    max-width: 23%;
+  }
 }
 
 /*mobile*/
@@ -231,4 +262,42 @@ footer {
     margin-bottom: 10px;
     border-bottom: 1px dotted #f023c2;
   }
+  
+  /*home page*/
+  section#top h1.home-title {
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+  section#top h2.home-subtitle {
+    font-size: 6vw;
+    line-height: 6vw;
+  }
+  section#top h2.home-info {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+  section#top #key-friend {
+    width: 160px;
+    right: 0;
+    left: initial;
+    transform: scaleX(-1);
+    bottom: 140px;
+  }
+  section#top #top-bg {
+    display:none;
+  }
+  section#top #titles {
+    max-width: 60%;
+  }
+  div.slide-text {
+    width: 95%;
+    top: 30px;
+  }
+  div.slide-text h1 {
+    font-size: 7vw;
+  }
+  div.slide-text p {
+    font-size: 3vw;
+  }
+  
 }
