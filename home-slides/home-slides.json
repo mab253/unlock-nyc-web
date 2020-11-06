@@ -1,3 +1,4 @@
 {
-    "layout": "layout.liquid"
+    "layout": "home-slide.liquid",
+    "bg_img": "https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FStorytelling_Website.png?v=1604633790666"
 }
