@@ -1,4 +1,10 @@
 ---
 label: Story Slide
 hide_body: false
-fields: []
+fields:
+- name: bg_img
+  type: file
+  config:
+    maxSize: 64
+  label: Background Image
+  description: The Icons8 character with the line - image only, no text!
