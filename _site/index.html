@@ -6,35 +6,66 @@
     <title>Unlock NYC - Home</title>
     <link rel="stylesheet" href="/styles/site.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
   </head>
   <body>
-    
+  
+  <div id="menu">
+  <ul>
+    <li>Home</li>
+    <li>Stories</li>
+    <li>Report</li>
+    <li>Make Calls</li>
+    <li>About Us</li>
+  </ul>
+</div>
   
   <div id="page">
-    <div id="menu">
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-      </ul>
-    </div>
     <section id="top">
+      <div id="key-friend"></div>
       <div id="top-bg"></div>
       <div id="titles">
         <h1 class="home-title">Unlock NYC</h1>
         <h2 class="home-subtitle">fighting for fair housing</h2>
+        <br>
+        <h2 class="home-subtitle" style="font-size: 17px; max-width: 80%;">more copy? words words words words words words words words words words words words words 
+        words words words words words words words words words words words</h2>
       </div>
     </section>
     <section id="stories">
+      <div id="slider">
+        <div class="control_next">></div>
+        <div class="control_prev"><</div>
+        <ul>
+          <li>This is a story, story one.</li>
+          <li style="background: #aaa;">This is a story, story 2.</li>
+          <li>This is a story, story 3.</li>
+          <li style="background: #aaa;">This is also a story, story 4.</li>
+        </ul> 
+      </div>
+    </section>
+    <section id="info" style="border-top: 1px solid Lightgray;">
+      <p style="margin-top: 50px; margin-left: 50px;">more text here! yes? and another graphic with photo/windows</p>
+    </section>
+    <section id="report-bot" style="border-top: 1px solid Lightgray;">
+      <p style="margin-top: 50px; margin-left: 50px;">report bot!</p>
+    </section>
+    <section id="make-calls" style="border-top: 1px solid Lightgray;">
+      <p style="margin-top: 50px; margin-left: 50px;">CALL BUTTON</p>
     </section>
     
   </div>
   
-  
-  <p>testing!</p>
-
+  <footer>
+    <p>this is the footer</p>
+    <p>maybe sign up, add e-mail here</p>
+    <p>copyright, social links, etc.</p>
+  </footer>
   
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="/scripts/slider.js"></script> 
   <script>
     $(document).ready(function() {
       $(window).scroll(function() {
