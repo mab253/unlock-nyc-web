@@ -2,7 +2,7 @@
 bg_img: "/uploads/storytelling_website-1.png"
 
 ---
-# I was flat-out told, 'we don't take vouchers here.'"
+# "I was flat-out told, 'we don't take vouchers here.'"
 
 The vast majority of apartments in New York City are covered by either the NYC or the NYS Human Rights Law. These laws prohibit landlords from turning down prospective tenants simply because they have a voucher.
 
