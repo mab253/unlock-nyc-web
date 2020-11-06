@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: about.md
+  label: About Us
+  match: "**/*"
 - type: directory
   path: home-slides
   label: Stories Slider
