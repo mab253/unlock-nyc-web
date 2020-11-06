@@ -17,8 +17,15 @@ div {
   box-sizing: border-box;
 }
 
-h1.home-title {
+h1 {
   font-family: "Intro Rust", "Courier New", sans-serif;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1.home-title {
   font-size: 105px;
   line-height: 92px;
   padding: 0;
@@ -27,7 +34,6 @@ h1.home-title {
 }
 
 h2.home-subtitle {
-  font-family: "Roboto Mono", monospace;
   font-size: 28px;
   font-weight: 200;
   padding: 0;
@@ -67,7 +73,7 @@ h2.home-subtitle {
 }
 
 #menu ul li:hover {
-  border-bottom: 1px solid #f023c2;
+  border-bottom: 1px dotted #f023c2;
 }
 
 /*home sections*/
@@ -78,7 +84,7 @@ div#page section {
 }
 
 section#top #top-bg {
-  width: 60%;
+  width: 62%;
   height: 100%;
   position: absolute;
   right: 0;
@@ -98,7 +104,7 @@ section#top #key-friend {
   width: 270px;
   position: absolute;
   bottom: 0;
-  left: 22%;
+  left: 19%;
   background-repeat: no-repeat;
   transform: rotate(5deg);
 }
@@ -138,15 +144,15 @@ section#top #titles {
   width: 450px; /*js sets*/
   height: 450px; /*js sets*/
   background: White;
-  padding-top: 200px;
+  /*padding-top: 130px;
   padding-left: 150px;
-  padding-right: 150px;
+  padding-right: 150px;*/
   box-sizing: border-box;
 }
   
 div.control_prev, div.control_next {
   position: absolute;
-  top: 40%;
+  top: 50%;
   z-index: 1;
   display: block;
   padding: 4% 3%;
@@ -175,7 +181,35 @@ div.control_next {
   right: 30px;
   border-radius: 2px 0 0 2px;
 }
+
+#slider ul li div.slide-text {
+  position: absolute;
+  z-index: 2;
+  top: 13%;
+  width: 55.5%;
+  left: 9%;
+}
+
+div.slide-text h1 {
+  font-size: 4.3vw;
+  line-height: 6vw;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+
+div.slide-text p {
+  font-size: 22px;
+}
   
+#slider ul li img.storyline {
+  position: absolute;
+  z-index: 0;
+  top: 130px;
+  width: 90%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
 /*footer*/
 
 footer {
@@ -184,4 +218,17 @@ footer {
   background-color: #ffb400;
   color: Black;
   border-bottom: 20px solid Black;
+}
+
+/*mobile*/
+
+@media only screen and (max-width: 700px) {
+  #menu ul {
+    padding-left: 10px;
+  }
+  #menu ul li {
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #f023c2;
+  }
 }
