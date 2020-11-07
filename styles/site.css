@@ -270,7 +270,7 @@ footer {
   /*mobile home page*/
   
   div#page section {
-    min-height: 90vh;
+    min-height: 100vh;
     height: auto;
   }
   
@@ -313,20 +313,22 @@ footer {
   }
   
   #slider ul li img.storyline {
-    top: 130px;
+    top: 130px; /*js sets*/
+    width: 100%;
+    left: -2.5%;
   }
   div.slide-text h1 {
-    font-size: 7.5vw;
-    line-height: 8.5vw;
-    margin-bottom: 80px;
+    font-size: 6vw;
+    line-height: 8vw;
+    margin-bottom: 50px;
     padding-top: 0;
     margin-top: 0;
-    max-width: 85%;
-    
+    max-width: 70%;
   }
   div.slide-text p {
-    font-size: 4.5vw;
-    max-width: 80%;
+    font-size: 4vw;
+    max-width: 65%;
+    background-color: White;
   }
   div.control_next {
     right: 2px;
