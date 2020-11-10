@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/computer-story.png"
+bg_img: "/uploads/storytelling_website-1.png"
 
 ---
 # I was flat-out told, 'we don't take vouchers here.'"
