@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/storytelling_website.png"
+bg_img: "/uploads/chair-story.png"
 
 ---
 # "'YOU DON'T MEET THE MINIMUM INCOME REQUIREMENTS.'"
