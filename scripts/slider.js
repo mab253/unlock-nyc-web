@@ -18,7 +18,7 @@ $(document).ready(function () {
   
   $(window).resize(function() {
     var slideCount = $('#slider ul li').length;
-    var slideWidth = $(window).width();
+    var slideWidth = ($(window).width());
     var slideHeight = $(window).height();
     var sliderUlWidth = slideCount * slideWidth;
 

@@ -8,33 +8,35 @@
     <link rel="stylesheet" href="/styles/site.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    
+    <script src="https://kit.fontawesome.com/910fe5b89c.js" crossorigin="anonymous"></script>
   </head>
   <body>
   
   <div id="menu">
   <ul>
-    <li>Home</li>
-    <li>Stories</li>
-    <li>Report Discrimination</li>
-    <li>Record Calls</li>
-    <li>About Us</li>
+    <a href="/"><li>Home</li></a>
+    <a href="/#stories"><li>Stories</li></a>
+    <a href="/#report-bot"><li>Report Discrimination</li></a>
+    <a href="/#report-bot"><li>Record Calls</li></a>
+    <a href="/about"><li>About Us</li></a>
   </ul>
 </div>
   
   <div id="page">
-    <section id="top">
+    <section id="top" class="full">
       <div id="key-friend"></div>
-      <div id="top-bg"></div>
+      <div id="top-bg">
+        <div id="top-figures"></div>
+      </div>
       <div id="titles">
         <h1 class="home-title">Unlock NYC</h1>
         <h2 class="home-subtitle">fighting for fair housing</h2>
         <br>
-        <h2 class="home-info">more copy? words words words words words words words words words words words words words 
-        words words words words words words words words words words words</h2>
+        <h2 class="home-info">looking for housing with a <strong style="font-weight:900;">voucher?</strong>
+        <br>you've come to the right place.</h2>
       </div>
     </section>
-    <section id="stories">
+    <section id="stories" class="full">
       <div class="story-slider" id="slider">
         <div class="control_next">></div>
         <div class="control_prev"><</div>
@@ -139,27 +141,41 @@
         </ul>
       </div>
     </section>
-    <section id="info" style="border-top: 1px solid Lightgray;">
-      <p style="margin-top: 50px; margin-left: 50px;">more text here! yes? and another graphic with photo/windows</p>
+    <section id="windows" class="full">
+      <div id="windows-figures"></div>
+      <div id="windows-animated"></div>
     </section>
-    <section id="report-bot" style="border-top: 1px solid Lightgray;">
-      <p style="margin-top: 50px; margin-left: 50px;">report bot!</p>
+    <section id="info" class="half">
+      <h1>More Info.</h1>
+      <h2 class="banner-text">Vouchers are text text copy copy copy - for you and copy words more info. More information, more help, more tools. We build tools that blah.</h2>
     </section>
-    <section id="make-calls" style="border-top: 1px solid Lightgray;">
-      <p style="margin-top: 50px; margin-left: 50px;">CALL BUTTON</p>
+    <section id="join-us" class="half">
+      <h1>Join Us</h1>
+      <h2 class="banner-text">If you want more information about our tools and how you can take action against voucher discrimination, please sign up with your e-mail address and we will be in touch.</h2>
+      <form>
+        <input type="email" required placeholder="your@email.com">
+        <input type="submit">
+      </form>
+      <div id="join-activist">
+      </div>
+    </section>
+    <section id="report-bot" class="half">
+      <div id="coming-soon">
+        <h1>Coming Soon</h1>
+        <h2 class="banner-text">Tools that allow you to record your phone calls with landlords and brokers, easily report discrimination, and move on with your housing search.</h2>
     </section>
     
   </div>
   
   <footer>
-    <p>this is the footer</p>
-    <p>maybe sign up, add e-mail here</p>
-    <p>copyright, social links, etc.</p>
+    <p>&copy; 2020 Unlock NYC</p>
+    <p><i class="fas fa-laptop-code"></i> made in brooklyn</p>
+    <p><i class="far fa-envelope"></i> questions? hello@landlordwatch.nyc</p>
+    <p><i class="fab fa-facebook"></i> find us on Facebook</p>
   </footer>
   
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
   <script src="/scripts/slider.js"></script> 
   <script>
     $(document).ready(function() {
