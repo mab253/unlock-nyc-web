@@ -12,16 +12,6 @@
   </head>
   <body>
   
-  <div id="menu">
-  <ul>
-    <a href="/"><li>Home</li></a>
-    <a href="/#stories"><li>Stories</li></a>
-    <a href="/#report-bot"><li>Report Discrimination</li></a>
-    <a href="/#report-bot"><li>Record Calls</li></a>
-    <a href="/about"><li>About Us</li></a>
-  </ul>
-</div>
-  
   <div id="page">
     <section id="top" class="full">
       <div id="key-friend"></div>
@@ -30,16 +20,26 @@
       </div>
       <div id="titles">
         <h1 class="home-title">Unlock NYC</h1>
-        <h2 class="home-subtitle">fighting for fair housing</h2>
+        <h2 class="home-subtitle">Fighting for a fair housing search</h2>
         <br>
-        <h2 class="home-info">looking for housing with a <strong style="font-weight:900;">voucher?</strong>
-        <br>you've come to the right place.</h2>
+        <h2 class="home-info">Looking for housing with a <strong style="font-weight:900;">voucher?</strong>
+        <br>You've come to the right place.</h2>
+        <h2 class="home-info" style="margin-top: 15px;">Use our free tools to learn about your rights and report injustice - right from your phone.</h2>
       </div>
     </section>
+    <div id="menu">
+  <ul>
+    <a href="/"><li>Home</li></a>
+    <a href="/#stories"><li>Stories</li></a>
+    <a href="/#report-bot"><li>Report Discrimination</li></a>
+    <a href="/#report-bot"><li>Record Calls</li></a>
+    <a href="/about"><li>About Us</li></a>
+  </ul>
+</div>
     <section id="stories" class="full">
       <div class="story-slider" id="slider">
-        <div class="control_next">></div>
-        <div class="control_prev"><</div>
+        <div class="control_next"><i class="fal fa-angle-right"></i></div>
+        <div class="control_prev"><i class="fal fa-angle-left"></i></div>
         <ul>
         
         <li>
@@ -145,16 +145,20 @@
       <div id="windows-figures"></div>
       <div id="windows-animated"></div>
     </section>
-    <section id="info" class="half">
-      <h1>More Info.</h1>
-      <h2 class="banner-text">Vouchers are text text copy copy copy - for you and copy words more info. More information, more help, more tools. We build tools that blah.</h2>
+    <section id="info" style="height: auto;">
+      <h1>It should be easier to find a home with your voucher.</h1>
+      <h2 class="banner-text">At Unlock NYC, we build free tools you can use to protect your rights during your search for housing. Why? 
+      If you have evidence that a landlord or broker is treating you unfairly, and you report it quickly, the city or an attorney may be able to help 
+      you get a fair shot at that apartment.</h2>
+      <h2 class="banner-text">When you use your voice to report where discrimination is happening, who’s doing it, and what it sounds 
+      like &mdash; you can help make the housing search fairer for all New Yorkers!</h2>
     </section>
     <section id="join-us" class="half">
       <h1>Join Us</h1>
       <h2 class="banner-text">If you want more information about our tools and how you can take action against voucher discrimination, please sign up with your e-mail address and we will be in touch.</h2>
-      <form>
-        <input type="email" required placeholder="your@email.com">
-        <input type="submit">
+      <form id="join-email" action='https://unlock-nyc-servers.glitch.me/join-email' method='post'>
+        <input type="email" name="email" required placeholder="your@email.com">
+        <input type="submit" value="Join">
       </form>
       <div id="join-activist">
       </div>
@@ -162,7 +166,9 @@
     <section id="report-bot" class="half">
       <div id="coming-soon">
         <h1>Coming Soon</h1>
-        <h2 class="banner-text">Tools that allow you to record your phone calls with landlords and brokers, easily report discrimination, and move on with your housing search.</h2>
+        <h2 class="banner-text">We think it should be quick and easy to report shady landlord behavior, every time. 
+        And, we think you deserve to know what happens to your report. That’s why we’re building free tools that will allow you to record your phone calls to 
+        apartments you’re interested in, and report discriminatory incidents. Stay tuned for more details!</h2>
     </section>
     
   </div>
@@ -183,6 +189,7 @@
       slideTextCheck();
       
       if($(window).width() > 700) {
+        // sticky menu
         $(window).scroll(function() {
           let windowHeight = $(window).height();
           if ($(window).scrollTop() > windowHeight) {
@@ -192,7 +199,7 @@
           }
         }) // end scroll function
       }
-      
+                  
       function slideTextCheck() {
         $("#slider div.slide-text").each(function() {
           let slideTitle = $(this).children("h1").height();
@@ -200,10 +207,24 @@
             $(this).addClass("longtitle");
           }
           if ($(window).width() < 700) {
-            $(this).parent("li").children("img.storyline").css("top", slideTitle - 60);
+            $(this).parent("li").children("img.storyline").css("top", 10);
           }
         });
       }
+      
+      // form action
+      $('#join-email').submit(function(e){
+        e.preventDefault();
+        $.ajax({
+          url: 'https://unlock-nyc-servers.glitch.me/join-email',
+          type: 'post',
+          data:$('#join-email').serialize(),
+          success:function(){
+            console.log('submitted form');
+            $("form#join-email input[type='submit']").attr("value", "Thank You");
+          }
+        });
+      });
     });
   </script>
   </body>
