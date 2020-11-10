@@ -4,6 +4,6 @@ bg_img: "/uploads/storytelling_website.png"
 ---
 # "They said my income and credit score were too low."
 
-Ever been told "You need to make 40x the rent and have a 700 credit score?" If you have a voucher, income requirements typically don't apply to you, and landlords are often not allowed to ask for your credit score.
+Ever been denied an apartment because you don't have a 700 credit score? If your voucher covers 100% of your rent, landlords shouldn't be using your credit score against you. You can **report that!**
 
 Does this experience sound familiar? **Learn how to spot, record, and report discrimination.**
