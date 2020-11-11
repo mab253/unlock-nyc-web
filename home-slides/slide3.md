@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/storytelling_website-2.png"
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-2.png
 
 ---
 # "They said the unit was no longer available."
