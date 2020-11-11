@@ -20,6 +20,7 @@
         background-position: 100% 0%;
         background-repeat: no-repeat;
         height: 45vh;
+        z-index: -1;
       }
       #banner-figures {
         position: absolute;
@@ -51,8 +52,44 @@
         font-weight: 600;
         text-transform: uppercase;
       }
+      #about-page p.has-img {
+        display:inline-block;
+      }
+      #about-page p img {
+        width: 200px;
+        border-radius: 100%;
+      }
       #menu {
         display: none;
+      }
+      @media only screen and (max-width: 1415px) {
+        #banner {
+          width: 50%;
+        }
+      }
+      @media only screen and (max-width: 1050px) {
+        #banner {
+          width: 100%;
+          top: 300px;
+        }
+        #about-page {
+          margin-top: 35vh;
+        }
+      }
+      @media only screen and (max-width: 700px) {
+        #banner {
+          top: 160px;
+        }
+        #about-page {
+          margin-top: 30vh;
+          max-width: 90%;
+        }
+        #about-page h1 {
+          font-size: 6.5vw;
+        }
+        #titles-wrap {
+          max-width: 100%;
+        }
       }
     </style>
   </head>
@@ -82,17 +119,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
   <script>
     $(document).ready(function() {
-      if($(window).width() > 700) {
-        // sticky menu
-        $(window).scroll(function() {
-          let windowHeight = $(window).height();
-          if ($(window).scrollTop() > windowHeight) {
-            $("#menu").addClass("sticky");
-          } else {
-            $("#menu").removeClass("sticky");
-          }
-        }) // end scroll function
-      }
+      $("#about-page p").each(function() {
+        if ($(this).find('img').length){
+          $(this).addClass("has-img");
+        }
+      });
     });
   </script>
   </body>
