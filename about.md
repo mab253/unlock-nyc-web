@@ -4,8 +4,6 @@ linkedCSS: "/styles/site.css"
 pageTitle: About Us
 
 ---
-about us
-
 # **Up to 80% of homeless New Yorkers who are looking for an apartment can’t find a place to live.**
 
 # **We strive to make the apartment search process transparent, fair, and free from discrimination for all New Yorkers.**
@@ -32,7 +30,7 @@ At Unlock NYC, we value lived experience as expertise. Our tools are at their be
 
 We couldn’t do this work without the many New Yorkers who’ve shared their stories and insights with us through interviews, surveys, participatory design sessions, and more. We’re committed to continue to co-design our tools with homeless New Yorkers and grassroots advocates to ensure that everything we build is useful, relevant, and responds to the priorities of people most affected by housing injustice in our city.
 
-## Our Supporters + Collaborators 
+## Our Supporters + Collaborators
 
 Neighbors Together
 
