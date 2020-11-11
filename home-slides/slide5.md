@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/storytelling_website-4.png"
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-4.png
 
 ---
 # "'Only professionals live here,' they said. You must be working."
