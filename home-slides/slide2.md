@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/storytelling_website-1.png"
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-1.png
 
 ---
 # I was flat-out told, 'we don't take vouchers here.'"
