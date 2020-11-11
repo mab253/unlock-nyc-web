@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/storytelling_website-3.png"
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-3.png
 
 ---
 # "'The landlord only takes Section 8, not CityFHEPS,' they said."
