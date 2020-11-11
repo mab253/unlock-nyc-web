@@ -15,8 +15,8 @@ sections:
   exclude: home-slides.json
 upload_dir: uploads
 public_path: "/uploads"
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: 'https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/:filename:'
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   install_dependencies_command: npm install
