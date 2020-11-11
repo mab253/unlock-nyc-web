@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/chair-story.png"
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/chair-story.png
 
 ---
 # "'YOU DON'T MEET THE MINIMUM INCOME REQUIREMENTS.'"
