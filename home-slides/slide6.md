@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/storytelling_website-5.png"
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-5.png
 
 ---
 # "The broker stopped responding after I mentioned my voucher."
