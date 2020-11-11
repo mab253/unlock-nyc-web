@@ -1,7 +1,7 @@
 ---
-layout: layout.liquid
+layout: about.liquid
 linkedCSS: "/styles/site.css"
-pageTitle: Home
+pageTitle: About Us
 
 ---
 # **Up to 80% of homeless New Yorkers who are looking for an apartment can’t find a place to live.** 
