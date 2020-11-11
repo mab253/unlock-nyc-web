@@ -14,7 +14,7 @@ sections:
   match: "**/*"
   exclude: home-slides.json
 upload_dir: uploads
-public_path: "/uploads"
+public_path: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
