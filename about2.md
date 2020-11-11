@@ -1,5 +1,5 @@
 ---
-layout: about.liquid
+layout: about2.liquid
 linkedCSS: "/styles/site.css"
 pageTitle: About Us
 ---
