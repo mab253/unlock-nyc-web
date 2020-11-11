@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/covid-story.png"
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/covid-story.png
 
 ---
 # "'YOU NEED A NEGATIVE COVID TEST TO SEE THIS APARTMENT', HE SAID."
