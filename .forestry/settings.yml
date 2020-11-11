@@ -17,7 +17,7 @@ upload_dir: uploads
 public_path: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: 'https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/:filename:'
 build:
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
