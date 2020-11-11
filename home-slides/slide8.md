@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/storytelling_website-7.png"
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-7.png
 
 ---
 # "The broker said I needed to pay extra because of my voucher."
