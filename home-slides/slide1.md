@@ -1,5 +1,5 @@
 ---
-bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/:filename:/storytelling_website.png
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website.png
 
 ---
 # "They said my income and credit score were too low."
