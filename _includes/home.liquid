@@ -47,7 +47,7 @@
         <ul>
         {% for slide in collections.slides %}
         <li>
-          <img class="storyline" src="https://raw.githubusercontent.com/mab253/unlock-nyc-web/main{{ slide.data.bg_img }}">
+          <img class="storyline" src="{{ slide.data.bg_img }}">
           <div class="slide-text">
           {{ slide.data.content }}
           </div>

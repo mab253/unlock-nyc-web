@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Unlock NYC - About Us</title>
-    <link rel="stylesheet" href="/styles/site.css">
+    <title>Unlock NYC - {{ pageTitle }}</title>
+    <link rel="stylesheet" href="{{ linkedCSS }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/910fe5b89c.js" crossorigin="anonymous"></script>
@@ -44,15 +44,7 @@
     </style>
   </head>
   <body>
-  <div id="menu">
-  <ul>
-    <a href="/"><li>Home</li></a>
-    <a href="/#stories"><li>Stories</li></a>
-    <a href="/#report-bot"><li>Report Discrimination</li></a>
-    <a href="/#report-bot"><li>Record Calls</li></a>
-    <a href="/about"><li>About Us</li></a>
-  </ul>
-</div>
+  {% include menu.liquid %}
   
   <div id="banner">
       <div id="banner-figures">
@@ -69,9 +61,7 @@
   </div>
   
   <div id="about-page">
-    <p>about us</p>
-<h1>just testing! pangurbot.</h1>
-
+    {{ content }}
   </div>
   
   
