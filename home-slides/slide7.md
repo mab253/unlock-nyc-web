@@ -1,5 +1,5 @@
 ---
-bg_img: "/uploads/storytelling_website-6.png"
+bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-6.png
 
 ---
 # "He said he'd check with the landlord and call me back. He never did."
