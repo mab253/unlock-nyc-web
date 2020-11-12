@@ -6,3 +6,5 @@ fields:
   name: pageTitle
   label: Page Title
   description: Shows up in top of browser/navigation only!
+pages:
+- about.md

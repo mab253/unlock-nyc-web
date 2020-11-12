@@ -4,21 +4,17 @@ linkedCSS: "/styles/site.css"
 pageTitle: About Us
 
 ---
-![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/buildbot.jpg)
-
 ## Our Story
 
-Our founding team met through Blue Ridge Labs @ Robin Hood, a social impact incubator aimed at building technology to address problems faced by low income New Yorkers. During our research, we heard stories from dozens of homeless New Yorkers who were repeatedly and unlawfully denied access to a home. Again and again, they called an apartment listing to schedule a viewing, and were met with the same range of responses: “Sorry, the unit is no longer available,” “The landlord prefers a working professional,” or “We don’t take Section 8 here.” Often hiding in plain sight, discrimination happens in a split second over the phone, and can be tough to recognize, let alone document. As a result, countless New Yorkers remain homeless for months, if not years, and those who discriminate routinely profit from breaking the law.
+Our founding team met through [Blue Ridge Labs](https://labs.robinhood.org/ "Blue Ridge Labs") @ [Robin Hood](https://www.robinhood.org/ "Robin Hood"), a social impact incubator that brings together technologists, designers, and communities to address critical problems facing New Yorkers through new and untested solutions. During our research, we heard stories from dozens of homeless New Yorkers who were repeatedly and unlawfully denied access to a home. Again and again, they called an apartment listing to schedule a viewing, and were met with the same range of responses: “Sorry, the unit is no longer available,” “The landlord prefers a working professional,” or “We don’t take Section 8 here.” Often hiding in plain sight, discrimination happens in a split second over the phone, and can be tough to recognize, let alone document. As a result, countless New Yorkers remain homeless for months, if not years, and those who discriminate routinely profit from breaking the law.
 
-## Our Solution
+## Our Approach
 
 At Unlock NYC, we work with homeless and housing-insecure New Yorkers to build technology that makes it easy to identify, record, and report discrimination. Our users can choose to send their report to an enforcement agency that will take legal action on their behalf, or to add their story to our growing body of data on housing discrimination in New York City. Armed with this knowledge, we collaborate with advocates, organizers, and public agencies to hold discriminators accountable and push for stronger fair housing policies. Our vision is a New York City where everyone can find a safe, healthy, and secure place to call home.
 
 ## Our Day-to-Day Team
 
-![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/pinkpang.jpg)
-
-![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/pinkpang.jpg)
+We’re a small and dedicated team that deeply believes in every human’s right to housing and in recognizing the long histories of race, class, and gender-based oppression that have created the housing crisis we face today. We operate through consensus and have a deep commitment to horizontal, distributed decision-making. Collectively, we hold experiences in participatory design, software engineering, political and tenant organizing, and direct experiences of homelessness and navigating the housing voucher system.
 
 ## Our Leadership Collective
 
