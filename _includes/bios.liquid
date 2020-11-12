@@ -1,0 +1,9 @@
+{% for bio in collections.bios %}
+  <div class="bio-wrapper">
+    <img class="headshot" src="{{ slide.data.headshot }}">
+    <div class="bio-text">
+      <p>{{ slide.data.name }}</p>
+      <p>{{ slide.data.pronoun }}</p>
+      {{ slide.data.content }}
+  </div>
+{% endfor %}
