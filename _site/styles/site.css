@@ -20,6 +20,7 @@ div {
 h1 {
   font-family: "Intro Rust", "Courier New", sans-serif;
   font-size: 45px;
+  line-height: 1.2em;
   box-sizing: border-box;
 }
 
@@ -30,7 +31,7 @@ h2 {
 
 h1.home-title {
   font-size: 105px;
-  line-height: 92px;
+  line-height: 0.9em;
   padding: 0;
   margin: 0;
   margin-bottom: 20px !important;
@@ -38,6 +39,7 @@ h1.home-title {
 
 h2.home-subtitle {
   font-size: 22px;
+  line-height: 1em;
   text-transform: uppercase;
   font-weight: 200;
   padding: 0;
@@ -46,6 +48,7 @@ h2.home-subtitle {
 
 h2.home-info {
   font-size: 17px;
+  line-height: 1em;
   max-width: 80%;
   font-weight: 200;
   padding: 0;
@@ -57,8 +60,8 @@ h2.home-info {
   background-color: #23296a;
   padding: 10px;
   position: absolute;
-  bottom: -72px;
-  color: #f023c2;
+  bottom: 0;
+  color: #ff63dc; /*was magenta #f023c2;*/
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   z-index: 100;
@@ -84,7 +87,7 @@ h2.home-info {
   cursor: pointer;
 }
 
-#menu ul a {
+#menu ul li a {
   color: inherit;
   text-decoration: none;
 }
@@ -106,19 +109,23 @@ div#page section {
 }
 
 div#page section.full {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 div#page section.half {
   min-height: 50vh;
 }
 
+section#top {
+  height: calc(100vh - 72px);
+}
+
 section#top #top-bg {
-  left: 12%;
+  right: 0;
   position: absolute;
   top: 0;
-  width: 88%;
-  background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fwindows1_bg.jpg?v=1604959871546);
+  width: 80%;
+  background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fwindows1_bg.jpg?v=1605212235576);
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,7 +133,7 @@ section#top #top-bg {
 
 section#top #top-figures {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 72px);
   background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Ftop_figures2.svg?v=1605041124725);
   background-size: cover;
   background-position: 0 0;
@@ -138,10 +145,10 @@ section#top #key-friend {
   background-size: 100%;
   background-position: 100% 100%;
   height: 100vh;
-  width: 270px;
+  width: 280px;
   position: absolute;
   bottom: 0;
-  left: 22%;
+  left: 25%;
   background-repeat: no-repeat;
   transform: rotate(5deg);
 }
@@ -149,13 +156,13 @@ section#top #key-friend {
 section#top #titles {
   position: absolute;
   top: 0;
-  max-width: 35%;
+  max-width: 25%;
   padding-left: 4%;
   padding-top: 4%;
 }
 
 section#windows {
-  background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fwindows2_bg.jpg?v=1604958525822);
+  background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fwindows2_bg.jpg?v=1605212250619);
   background-position: 0 0; /*80% 100%;*/
   background-size: 100%; /*cover;*/
   background-repeat: no-repeat;
@@ -277,9 +284,6 @@ div#coming-soon {
   height: 450px; /*js sets*/
   background: White;
   overflow-x: hidden;
-  /*padding-top: 130px;
-  padding-left: 150px;
-  padding-right: 150px;*/
   box-sizing: border-box;
   transform: scale(0.9);
   webkit-transform: scale(0.9);
@@ -298,7 +302,7 @@ div.control_next {
   color: eee;
   text-decoration: none;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 40px;
   opacity: 0.8;
   cursor: pointer;
 }
@@ -335,7 +339,9 @@ div.slide-text h1 {
 }
 
 div.slide-text p {
-  font-size:21px;
+  font-size: 19px;
+  font-family: 'Roboto Mono', 'Open Sans', sans-serif;
+  max-width: 90%;
 }
 
 div.slide-text.longtitle {
@@ -369,10 +375,15 @@ footer {
 }
 
 footer p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-weight: 900;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-weight: 300;
   font-size: 16px;
+}
+
+footer p a {
+  color: inherit;
+  text-decoration: none;
 }
 
 /*top banner sizing*/
@@ -386,9 +397,31 @@ footer p {
   }
 }
 
+/*smaller screens*/
+
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+  section#windows {
+    height: 60vh !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 900px) {
+  #menu ul li {
+    font-size: 1.8vw;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+  h2.banner-text {
+    font-size: 22px !important;
+  }
+}
+
 /*mobile*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   #menu {
     position: relative;
     bottom: 0;
@@ -402,9 +435,8 @@ footer p {
     border-bottom: 1px dotted #f023c2;
   }
   
-  h1.home-title {
-    font-size: 10vw;
-    line-height: 10vw;
+  h1 {
+    font-size: 7vw;
   }
 
   footer {
@@ -423,16 +455,19 @@ footer p {
   }
 
   div#page section.half {
-    min-height: 100vh;
+    min-height: 90vh;
   }
-
+  
+  h1.home-title {
+    font-size: 12vw;
+  }
+  
   section#top h2.home-subtitle {
-    font-size: 6vw;
-    line-height: 6vw;
+    font-size: 5vw;
   }
   section#top h2.home-info {
     font-size: 4vw;
-    line-height: 4vw;
+    max-width: 100%;
   }
   section#top #key-friend {
     width: 180px;
@@ -463,25 +498,25 @@ footer p {
 
   #slider ul li img.storyline {
     top: 130px; /*js sets*/
-    width: 200%; /*100%;*/
-    left: -80%; /*-2.5%;*/
+    width: 180%; /*100%;*/
+    left: -70%; /*-2.5%;*/
+    opacity: 0.7;
   }
   div.slide-text h1 {
     font-size: 6vw;
     line-height: 8vw;
-    height: 30vh; /*specific for mobile text*/
+    height: 25vh; /*specific for mobile text*/
     padding-top: 0;
     margin-top: 0;
     max-width: 70%;
   }
   div.slide-text p {
-    font-size: 4.5vw;
-    text-align: justify;
+    font-size: 3.8vw;
     max-width: 100%;
     margin-left: -9%;
     padding: 3px;
     padding-left: 9%;
-    padding-right: 9%;
+    padding-right: 10%;
     box-sizing: border-box;
     background-color: White;
   }
@@ -518,6 +553,11 @@ footer p {
   section#join-us {
     padding-top: 20px;
   }
+  
+  div#join-activist {
+    width: 30%;
+  }
+  
   section#join-us input[type="email"] {
     width: 100%;
     font-size: 4vw;
@@ -531,6 +571,9 @@ footer p {
     font-size: 5vw;
     -webkit-appearance: none;
     -webkit-border-radius: 0;
+  }
+  section#report-bot {
+    background-size: 80%;
   }
   div#coming-soon {
     max-width: 90%;

@@ -22,8 +22,8 @@
         <h1 class="home-title">Unlock NYC</h1>
         <h2 class="home-subtitle">Fighting for a fair housing search</h2>
         <br>
-        <h2 class="home-info">Looking for housing with a <strong style="font-weight:900;">voucher?</strong>
-        <br>You've come to the right place.</h2>
+        <h2 class="home-info">Looking for housing with a <strong style="font-weight:900;">voucher?</strong></h2>
+        <h2 class="home-info" style="margin-top: 15px;">You've come to the right place.</h2>
         <h2 class="home-info" style="margin-top: 15px;">Use our free tools to learn about your rights and report injustice - right from your phone.</h2>
       </div>
     </section>
@@ -90,7 +90,7 @@
       if($(window).width() > 700) {
         // sticky menu
         $(window).scroll(function() {
-          let windowHeight = $(window).height();
+          let windowHeight = $(window).height() - 72;
           if ($(window).scrollTop() > windowHeight) {
             $("#menu").addClass("sticky");
           } else {
@@ -101,13 +101,16 @@
                   
       function slideTextCheck() {
         $("#slider div.slide-text").each(function() {
-          let slideTitle = $(this).children("h1").height();
-          if (slideTitle > 320) {
-            $(this).addClass("longtitle");
-          }
-          if ($(window).width() < 700) {
-            $(this).parent("li").children("img.storyline").css("top", 10);
-          }
+            let slideTitle = $(this).children("h1").height();
+            if ($(window).width() > 900) {
+              let lineHeight = $(window).width() * .06;
+              if (slideTitle > 3*lineHeight) {
+                $(this).addClass("longtitle");
+              }
+            }
+            if ($(window).width() < 900) {
+              $(this).parent("li").children("img.storyline").css("top", 10);
+            }
         });
       }
       
