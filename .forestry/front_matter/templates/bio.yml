@@ -10,4 +10,4 @@ fields:
   label: pronoun
 - type: file
   name: headshot
-  label: headshot
+  label: Headshot Image
