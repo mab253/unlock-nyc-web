@@ -6,13 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: about.md
-  label: About Page
-- type: directory
-  path: bios
-  label: Team Bios
-  create: all
-  match: "**/*"
-  exclude: bios.json
+  label: About Us
 - type: directory
   path: home-slides
   label: Stories Slider
