@@ -4,10 +4,12 @@ hide_body: true
 fields:
 - type: text
   name: name
-  label: name
+  label: Name
+  description: Full name
 - type: text
   name: pronoun
-  label: pronoun
+  label: Pronouns
+  description: What does this person use for their pronouns?
 - type: file
   name: headshot
   label: Headshot Image
