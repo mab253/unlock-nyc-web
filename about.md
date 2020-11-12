@@ -16,8 +16,6 @@ At Unlock NYC, we work with homeless and housing-insecure New Yorkers to build t
 
 We’re a small and dedicated team that deeply believes in every human’s right to housing and in recognizing the long histories of race, class, and gender-based oppression that have created the housing crisis we face today. We operate through consensus and have a deep commitment to horizontal, distributed decision-making. Collectively, we hold experiences in participatory design, software engineering, political and tenant organizing, and direct experiences of homelessness and navigating the housing voucher system.
 
-{% include menu.liquid %}
-
 ## Our Leadership Collective
 
 At Unlock NYC, we value lived experience as expertise. Our tools are at their best when the people who use them are involved in big decisions from the start. As close collaborators and advisors to the Unlock NYC team, Leadership Collective members help shape the direction of our organization, and make sure that the knowledge, ideas, and vision of New Yorkers directly impacted by homelessness and housing insecurity are at the heart of our work. Each Leadership Collective member brings a unique perspective and a set of skills to help inform strategic decisions.
