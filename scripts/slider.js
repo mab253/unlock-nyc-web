@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  let autoslide = setInterval(moveRight, 4500);
+  let autoslide = setInterval(moveRight, 7500);
 
   var slideCount = $("#slider ul li").length;
   var slideWidth = $(window).width();
