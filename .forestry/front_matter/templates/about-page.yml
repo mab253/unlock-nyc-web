@@ -3,11 +3,6 @@ label: About Page
 hide_body: false
 fields:
 - type: text
-  name: layout
-  label: layout
-- type: text
-  name: linkedCSS
-  label: linkedCSS
-- type: text
   name: pageTitle
-  label: pageTitle
+  label: Page Title
+  description: Shows up in top of browser/navigation only!
