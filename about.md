@@ -2,11 +2,9 @@
 layout: about.liquid
 linkedCSS: "/styles/site.css"
 pageTitle: About Us
+
 ---
-
-# **Up to 80% of homeless New Yorkers who are looking for an apartment can’t find a place to live.**
-
-# **We strive to make the apartment search process transparent, fair, and free from discrimination for all New Yorkers.**
+![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/buildbot.jpg)
 
 ## Our Story
 
