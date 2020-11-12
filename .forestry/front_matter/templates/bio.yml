@@ -1,0 +1,13 @@
+---
+label: Bio
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: pronoun
+  label: pronoun
+- type: file
+  name: headshot
+  label: headshot
