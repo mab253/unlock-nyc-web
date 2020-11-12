@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: bios
+  label: Team Bios
+  create: all
+  match: "**/*"
+  exclude: bios.json
 - type: document
   path: about.md
   label: About Us
