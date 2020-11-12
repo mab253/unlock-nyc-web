@@ -33,6 +33,12 @@
         background-repeat: no-repeat;
         height: 45vh;
       }
+      h1.home-title {
+        cursor: pointer;
+      }
+      h1.home-title:hover {
+        color: #f124c2;
+      }
       #titles-wrap {
         padding-top: 4%;
         padding-left: 4%;
@@ -114,11 +120,16 @@
     {{ content }}
   </div>
   
+   {% include footer.liquid %}
+  
   
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
   <script>
     $(document).ready(function() {
+      $("h1.home-title").click(function() {
+        window.location.href= "/";
+      });
       $("#about-page p").each(function() {
         if ($(this).find('img').length){
           $(this).addClass("has-img");

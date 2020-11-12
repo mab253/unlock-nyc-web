@@ -205,7 +205,7 @@ section#join-us {
 section#join-us input[type="email"] {
   background-color: transparent;
   border: none;
-  border-bottom: 5px solid #feb401;
+  border-bottom: 3px solid #feb401;
   width: 700px;
   max-width: 100%;
   font-size: 35px;
