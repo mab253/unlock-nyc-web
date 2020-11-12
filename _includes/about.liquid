@@ -20,7 +20,6 @@
         background-position: 100% 0%;
         background-repeat: no-repeat;
         height: 45vh;
-        z-index: -1;
       }
       #banner-figures {
         position: absolute;
@@ -44,19 +43,59 @@
         padding-left: 4%;
         max-width: 30%;
       }
+      #headline-wrap {
+        width: 140%;
+        margin-left: -20%;
+        padding: 20%;
+        padding-top: 8%;
+        padding-bottom: 4%;
+        /*background-color: #efefef;*/
+        color: #23286a;
+        margin-bottom: 2%;
+      }
+      #headline-wrap h2 {
+        text-transform: none !important;
+        font-size: 32px !important;
+      }
       #about-page {
         padding: 4%;
         max-width: 80%;
         margin: auto;
-        margin-top: 100px;
       }
       #about-page p {
-        text-align: justify;
+        /*text-align: justify;*/
       }
       #about-page h2 {
         font-size: 22px;
         font-weight: 600;
         text-transform: uppercase;
+      }
+      #about-page a {
+        font-weight: 900;
+        text-decoration: none;
+        color: #23286a;
+        border-bottom: 1px dotted #23286a;
+      }
+      #bios-grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 25% 25% 25% 25%;
+      }
+      div.bio-wrapper {
+        text-align: center;
+      }
+      div.bio-text p.name {
+        font-family: 'Roboto Mono';
+        font-size: 14px;
+        font-weight: 900;
+        margin-bottom: 5px;
+      }
+      div.bio-text p.pronoun {
+        font-size: 14px;
+        margin-top: 0;
+      }
+      img.headshot {
+        max-width: 80%;
       }
       #about-page p.has-img {
         display:inline-block;
@@ -96,6 +135,9 @@
         #titles-wrap {
           max-width: 100%;
         }
+        #bios-grid {
+          grid-template-columns: 100%;
+        }
       }
     </style>
   </head>
@@ -117,6 +159,14 @@
   </div>
   
   <div id="about-page">
+    <div id="headline-wrap">
+      <h2>
+        Up to 80% of homeless New Yorkers who are looking for an apartment can’t find a place to live.
+      </h2>
+      <h2>
+        We strive to make the apartment search process transparent, fair, and free from discrimination for all New Yorkers. 
+      </h2>
+    </div>
     {{ content }}
   </div>
   

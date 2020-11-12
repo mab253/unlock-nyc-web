@@ -1,9 +1,11 @@
+<div id="bios-grid">
 {% for bio in collections.bios %}
   <div class="bio-wrapper">
-    <img class="headshot" src="{{ slide.data.headshot }}">
+    <img class="headshot" src="{{ bio.data.headshot }}">
     <div class="bio-text">
-      <p>{{ slide.data.name }}</p>
-      <p>{{ slide.data.pronoun }}</p>
-      {{ slide.data.content }}
+      <p class="name">{{ bio.data.name }}</p>
+      <p class="pronoun">{{ bio.data.pronoun }}</p>
+    </div>
   </div>
 {% endfor %}
+</div>
