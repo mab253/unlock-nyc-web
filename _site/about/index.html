@@ -20,6 +20,7 @@
         background-position: 100% 0%;
         background-repeat: no-repeat;
         height: 45vh;
+        z-index: -1;
       }
       #banner-figures {
         position: absolute;
@@ -97,12 +98,11 @@
       img.headshot {
         max-width: 80%;
       }
-      #about-page p.has-img {
-        display:inline-block;
+      div.bio-content {
+        display: none;
       }
-      #about-page p img {
-        width: 200px;
-        border-radius: 100%;
+      div.bio-content p {
+        text-align: justify !important;
       }
       #menu {
         display: none;
@@ -116,17 +116,26 @@
         #banner {
           width: 100%;
           top: 300px;
+          background-size: cover;
+        }
+        #banner-figures {
+          background-size: cover;
         }
         #about-page {
-          margin-top: 35vh;
+          margin-top: 50vh;
         }
       }
       @media only screen and (max-width: 700px) {
+        div.bio-content {
+          display: block;
+        }
         #banner {
           top: 160px;
         }
+        #headline-wrap h2 {
+          font-size: 4.5vw !important;
+        }
         #about-page {
-          margin-top: 30vh;
           max-width: 90%;
         }
         #about-page h1 {
@@ -187,6 +196,8 @@
     <div class="bio-text">
       <p class="name">Ashley Eberhart</p>
       <p class="pronoun">she/her</p>
+      <div class="bio-content"><p><strong>Ashley Eberhart</strong> is a product designer and researcher who uses participatory processes to ensure that community members are the key decision-makers in what challenges we address with technology, and how. She also brings a decade of experience in nonprofit strategy, project management, and impact evaluation to the team, through her work as social entrepreneur and as a former strategy consultant advising major foundations, nonprofits, and academic institutions.</p>
+</div>
     </div>
   </div>
   <div class="bio-wrapper">
@@ -194,6 +205,8 @@
     <div class="bio-text">
       <p class="name">Jessica Valencia</p>
       <p class="pronoun">she/her</p>
+      <div class="bio-content"><p><strong>Jessica Valencia</strong> is a Brooklyn born and bred mom. She discovered Unlock NYC when she found herself being a victim of source of income discrimination while looking for a home for her family. She has turned her housing journey into her lifelong passion, and now wants to help thousands of homeless New Yorkers find permanent housing. She brings her knack for connecting with fellow New Yorkers and her deep knowledge of the voucher system to the team.</p>
+</div>
     </div>
   </div>
   <div class="bio-wrapper">
@@ -201,6 +214,8 @@
     <div class="bio-text">
       <p class="name">Madeline Blount</p>
       <p class="pronoun">she/her</p>
+      <div class="bio-content"><p><strong>Madeline Blount</strong> works as a technologist, researcher, and artist. She has worked as a software engineer, coding and designing web portals for immersive documentaries; conducted ethnographic fieldwork on border systems and migration; served as an organizer on political campaigns and movements; and has performed and presented work at festivals, hackathons, and classrooms around the world.</p>
+</div>
     </div>
   </div>
   <div class="bio-wrapper">
@@ -208,6 +223,8 @@
     <div class="bio-text">
       <p class="name">Manon Vergerio</p>
       <p class="pronoun">she/her</p>
+      <div class="bio-content"><p><strong>Manon Vergerio</strong> is an organizer and a critical urbanist whose work centers on developing research and multimedia tools that put power into the hands of communities most impacted by urban injustice. She brings 7+ years of experience researching and organizing around housing issues in New York, San Francisco, and Paris to the team, including co-founding the NYC chapter of the Anti-Eviction Mapping Project, a data visualization and storytelling collective documenting the eviction crisis.</p>
+</div>
     </div>
   </div>
 </div>
@@ -238,11 +255,6 @@
     $(document).ready(function() {
       $("h1.home-title").click(function() {
         window.location.href= "/";
-      });
-      $("#about-page p").each(function() {
-        if ($(this).find('img').length){
-          $(this).addClass("has-img");
-        }
       });
     });
   </script>

@@ -5,6 +5,7 @@
     <div class="bio-text">
       <p class="name">{{ bio.data.name }}</p>
       <p class="pronoun">{{ bio.data.pronoun }}</p>
+      <div class="bio-content">{{ bio.templateContent | safe }}</div>
     </div>
   </div>
 {% endfor %}
