@@ -26,4 +26,6 @@ At Unlock NYC, we value lived experience as expertise. Our tools are at their be
 
 We couldn’t do this work without the many New Yorkers who’ve shared their stories and insights with us through interviews, surveys, participatory design sessions, and more. We’re committed to continue to co-design our tools with homeless New Yorkers and grassroots advocates to ensure that everything we build is useful, relevant, and responds to the priorities of people most affected by housing injustice in our city.
 
+![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/buildbot-1.jpg)
+
 ## Our Supporters + Collaborators
