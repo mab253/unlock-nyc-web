@@ -77,6 +77,12 @@
         color: #23286a;
         border-bottom: 1px dotted #23286a;
       }
+      a.img-link {
+        border: none !important;
+      }
+      #about-page p img {
+        max-width: 100%;
+      }
       #bios-grid {
         display: grid;
         width: 100%;
@@ -194,12 +200,25 @@
     </div>
     {{ content }}
     <div id="collab-logos">
-      <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FNeighborsTogether_logo.png?v=1605548777796">
-      <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FCommunitiesResist_Logo.png?v=1605548782492">
-      <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FBlueRidgeLabs_logo.png?v=1605548787537">
-      <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FAwesomeFoundation_logo_white.jpg?v=1605548791395">
+      <div id="actions">
+        <img style="width: 100%;" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FHudsonYards_10.27.2020.jpg?v=1605550229501">
+        <p style="font-size: 15px; margin-top: 0; font-style: italic;">We take our cues from New Yorkers directly impacted by homelessness and from member-led organizations that mobilize for power and transformative change towards the right to housing. We support the <a href="https://www.homelesscantstayhome.org/" target="_blank">#HomelessCantStayHome</a> and VALUE in Housing campaigns, and look forward to continuing to build with our partners, collaborators, and allies in the future. </p>
+      </div>
+      <a class="img-link" href="https://neighborstogether.org/" target="_blank">
+        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FNeighborsTogether_logo.png?v=1605548777796">
+      </a>
+      <a class="img-link" href="https://communitiesresist.org/" target="_blank">
+        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FCommunitiesResist_Logo.png?v=1605548782492">
+      </a>
+      <a class="img-link" href="https://labs.robinhood.org/" target="_blank">
+        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FBlueRidgeLabs_logo.png?v=1605548787537">
+      </a>
+      <a class="img-link" href="https://www.awesomefoundation.org/en" target="_blank">
+        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FAwesomeFoundation_logo_white.jpg?v=1605548791395">
+      </a>
     </div>
-  </div>
+    
+  </div> <!-- end of #about-page -->
   
    {% include footer.liquid %}
   
