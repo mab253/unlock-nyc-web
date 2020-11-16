@@ -84,6 +84,15 @@
       }
       div.bio-wrapper {
         text-align: center;
+        cursor: pointer;
+        border: 2px solid White;
+      }
+      .hover-bio {
+        border: 2px dotted #23286a !important;
+      }
+      #bio-hover {
+        opacity: 0;
+        transition: all 900ms;
       }
       div.bio-text p.name {
         font-family: 'Roboto Mono';
@@ -103,6 +112,10 @@
       }
       div.bio-content p {
         text-align: justify !important;
+      }
+      img.logo {
+        width: 150px;
+        vertical-align: middle;
       }
       #menu {
         display: none;
@@ -126,6 +139,9 @@
         }
       }
       @media only screen and (max-width: 700px) {
+        div.bio-wrapper {
+          cursor: initial;
+        }
         div.bio-content {
           display: block;
         }
@@ -177,6 +193,12 @@
       </h2>
     </div>
     {{ content }}
+    <div id="collab-logos">
+      <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FNeighborsTogether_logo.png?v=1605548777796">
+      <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FCommunitiesResist_Logo.png?v=1605548782492">
+      <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FBlueRidgeLabs_logo.png?v=1605548787537">
+      <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FAwesomeFoundation_logo_white.jpg?v=1605548791395">
+    </div>
   </div>
   
    {% include footer.liquid %}
@@ -189,6 +211,15 @@
       $("h1.home-title").click(function() {
         window.location.href= "/";
       });
+      
+      if ($(window).width() > 700) {
+        $("div.bio-wrapper").hover(function() {
+          $(this).toggleClass("hover-bio");
+          let theBio = $(this).find("div.bio-content").html();
+          $("div#bio-hover").html(theBio);
+          $("div#bio-hover").css("opacity", 1);
+        });
+      }
     });
   </script>
   </body>
