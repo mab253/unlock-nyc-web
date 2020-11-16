@@ -2,7 +2,7 @@
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/covid-story.png
 
 ---
-# "'YOU NEED A NEGATIVE COVID TEST TO SEE THIS APARTMENT', HE SAID."
+# "He said I needed to show a negative COVID test to see the apartment."
 
 During your housing search, you’re protected from harassment or discrimination based on your COVID-19 status. That means a landlord can’t force you to take a COVID-19 diagnostic test. **You can report that!**
 
