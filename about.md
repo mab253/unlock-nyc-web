@@ -14,7 +14,7 @@ At Unlock NYC, we work with homeless and housing-insecure New Yorkers to build t
 
 ## Our Day-to-Day Team
 
-We’re a small and dedicated team that deeply believes in every human’s right to housing and in recognizing the long histories of race, class, and gender-based oppression that have created the housing crisis we face today. We operate through consensus and have a deep commitment to horizontal, distributed decision-making. Collectively, we hold experiences in participatory design, software engineering, political and tenant organizing, and direct experiences of homelessness and navigating the housing voucher system.
+We’re a small and dedicated team that deeply believes in every human’s right to housing and we recognize the long histories of discriminatory policies that have created the housing crisis we face today. We operate through consensus and have a deep commitment to horizontal, distributed decision-making. Collectively, we hold experiences in participatory design, software engineering, political and tenant organizing, and direct experiences of homelessness and navigating the housing voucher system.
 
 {% include bios.liquid %}
 
