@@ -49,10 +49,11 @@
         margin-left: -20%;
         padding: 20%;
         padding-top: 8%;
-        padding-bottom: 4%;
-        /*background-color: #efefef;*/
+        padding-bottom: 8%;
+        background-color: #efefef;
         color: #23286a;
-        margin-bottom: 2%;
+        margin-top: 75px;
+        margin-bottom: 75px;
       }
       #headline-wrap h2 {
         text-transform: none !important;
@@ -176,10 +177,11 @@
   <div id="menu">
   <ul>
     <li><a href="/">Home</a></li>
-    <li><a href="/#stories">Stories</a></li>
-    <li><a href="/#report-bot">Report Discrimination</a></li>
-    <li><a href="/#report-bot">Record Calls</a></li>
+    <li><a href="/#stories">Learn</a></li>
+    <li><a href="/#report-bot">Report</a></li>
+    <li><a href="/#report-bot">Record</a></li>
     <li><a href="/about">About Us</a></li>
+    <li><a href="https://www.facebook.com/WeUnlockNYC/" target="_blank"><i class="fab fa-facebook" style="font-size: 25px; vertical-align: middle;"></i></a></li>
   </ul>
 </div>
   
@@ -211,7 +213,8 @@
 <h2>Our Approach</h2>
 <p>At Unlock NYC, we work with homeless and housing-insecure New Yorkers to build technology that makes it easy to identify, record, and report discrimination. Our users can choose to send their report to an enforcement agency that will take legal action on their behalf, or to add their story to our growing body of data on housing discrimination in New York City. Armed with this knowledge, we collaborate with advocates, organizers, and public agencies to hold discriminators accountable and push for stronger fair housing policies. Our vision is a New York City where everyone can find a safe, healthy, and secure place to call home.</p>
 <h2>Our Day-to-Day Team</h2>
-<p>We’re a small and dedicated team that deeply believes in every human’s right to housing and in recognizing the long histories of race, class, and gender-based oppression that have created the housing crisis we face today. We operate through consensus and have a deep commitment to horizontal, distributed decision-making. Collectively, we hold experiences in participatory design, software engineering, political and tenant organizing, and direct experiences of homelessness and navigating the housing voucher system.</p>
+<p>We’re a small and dedicated team that deeply believes in every human’s right to housing and we recognize the long histories of discriminatory policies that have created the housing crisis we face today. We operate through consensus and have a deep commitment to horizontal, distributed decision-making. Collectively, we hold experiences in participatory design, software engineering, political and tenant organizing, and direct experiences of homelessness and navigating the housing voucher system.</p>
+<div id="bio-wrap-grid">
 <div id="bios-grid">
   <div class="bio-wrapper">
     <img class="headshot" src="https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/29-compressed.png">
@@ -251,6 +254,7 @@
   </div>
 </div>
 <div id="bio-hover">
+</div>
 </div>
 <h2>Our Leadership Collective</h2>
 <p>At Unlock NYC, we value lived experience as expertise. Our tools are at their best when the people who use them are involved in big decisions from the start. As close collaborators and advisors to the Unlock NYC team, Leadership Collective members help shape the direction of our organization, and make sure that the knowledge, ideas, and vision of New Yorkers directly impacted by homelessness and housing insecurity are at the heart of our work. Each Leadership Collective member brings a unique perspective and a set of skills to help inform strategic decisions.</p>
@@ -301,7 +305,12 @@
           $(this).toggleClass("hover-bio");
           let theBio = $(this).find("div.bio-content").html();
           $("div#bio-hover").html(theBio);
+          $("div#bio-hover").show();
           $("div#bio-hover").css("opacity", 1);
+          
+        });
+        $("div#bio-wrap-grid").mouseleave(function() {
+          $("div#bio-hover").css("opacity", 0).delay(1000).hide();
         });
       }
     });

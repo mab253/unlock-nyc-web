@@ -49,10 +49,11 @@
         margin-left: -20%;
         padding: 20%;
         padding-top: 8%;
-        padding-bottom: 4%;
-        /*background-color: #efefef;*/
+        padding-bottom: 8%;
+        background-color: #efefef;
         color: #23286a;
-        margin-bottom: 2%;
+        margin-top: 75px;
+        margin-bottom: 75px;
       }
       #headline-wrap h2 {
         text-transform: none !important;
@@ -236,7 +237,12 @@
           $(this).toggleClass("hover-bio");
           let theBio = $(this).find("div.bio-content").html();
           $("div#bio-hover").html(theBio);
+          $("div#bio-hover").show();
           $("div#bio-hover").css("opacity", 1);
+          
+        });
+        $("div#bio-wrap-grid").mouseleave(function() {
+          $("div#bio-hover").css("opacity", 0).delay(1000).hide();
         });
       }
     });
