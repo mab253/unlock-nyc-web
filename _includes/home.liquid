@@ -14,6 +14,7 @@
   
   <div id="page">
     <section id="top" class="full">
+      <div id="crowd-friends"></div>
       <div id="key-friend"></div>
       <div id="top-bg">
         <div id="top-figures"></div>
@@ -22,23 +23,11 @@
         <h1 class="home-title">Unlock NYC</h1>
         <h2 class="home-subtitle">Tools for a fair housing search</h2>
         <br>
-        <h2 class="home-info">Looking for housing with a <strong style="font-weight:900;">voucher?</strong></h2>
-        <h2 class="home-info" style="margin-top: 15px;">You've come to the right place.</h2>
-        <h2 class="home-info" style="margin-top: 15px;">Use our free tools to learn about your rights and report injustice - right from your phone.</h2>
+        <h2 class="home-info">Do landlords keep saying "no" to your voucher? Use our tools to record it and report it – right from your phone.</h2>
       </div>
     </section>
     {% include menu.liquid %}
-    <section id="info" style="height: auto;">
-      <h1>It should be easier to find a home with your voucher.</h1>
-      <h2 class="banner-text">At Unlock NYC, we build free tools you can use to protect your rights during your search for housing.</h2>
-      <h2 class="banner-text"><strong>Why?</strong> If you have evidence that a landlord or broker is treating you unfairly &mdash; and you report it quickly &mdash; the city or an attorney may be able to help you get a fair shot at that apartment.</h2>
-      <h2 class="banner-text">When you use your voice to report where discrimination is happening, who’s doing it, and what it sounds like, advocates around the city can use that information to hold landlords accountable and push for policies that make vouchers work!</h2>
-    </section>
-    <section id="windows" style="height: 80vh;">
-      <div id="windows-figures"></div>
-      <div id="windows-animated"></div>
-    </section>
-    <section id="stories" class="full">
+    <section id="stories">
       <div class="story-slider" id="slider">
         <div class="control_next"><i class="fal fa-angle-right"></i></div>
         <div class="control_prev"><i class="fal fa-angle-left"></i></div>
@@ -53,6 +42,11 @@
         {% endfor %}
         </ul>
       </div>
+    </section>
+    <section id="info" style="height: auto;">
+      <h1>It should be easier to find a home with your voucher.</h1>
+      <h2 class="banner-text">If you’ve been having a hard time finding a home with a voucher in New York City, it’s not your fault. Vouchers are supposed to help tenants find a home in cities with limited affordable housing options – and guess what? They’re a totally legitimate way to pay your rent! The vast majority of landlords in NYC are required by law to accept vouchers. And yet, landlords and brokers are turning down New Yorkers like you, every day.</h2>
+      <h2 class="banner-text">You deserve to be treated equally during your search for housing, no matter your situation. Whether you’ve been living in a family shelter, staying with friends or relatives, or you’re looking to move from your current place, you have the right to a fair housing search. We’re making it easier by offering free and friendly tools you can use to record and report discrimination. If you have experienced mistreatment at the hands of a landlord or broker, you can report it here! </h2>
     </section>
     <section id="report-bot" class="half">
       <div id="coming-soon">
@@ -72,7 +66,10 @@
       <div id="join-activist">
       </div>
     </section>
-    
+    <section id="windows" style="height: 80vh;">
+      <div id="windows-figures"></div>
+      <!--<div id="windows-animated"></div>-->
+    </section>
   </div>
   
   {% include footer.liquid %}
