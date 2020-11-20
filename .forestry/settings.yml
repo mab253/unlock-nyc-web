@@ -10,15 +10,19 @@ sections:
   create: all
   match: "**/*"
   exclude: home-slides.json
+- type: document
+  path: home-info
+  label: Home Info Banner
+  match: "**/*"
+- type: document
+  path: about.md
+  label: About Page
 - type: directory
   path: bios
   label: Team Bios
   create: all
   match: "**/*"
   exclude: bios.json
-- type: document
-  path: about.md
-  label: About Page
 upload_dir: uploads
 public_path: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads
 front_matter_path: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads
