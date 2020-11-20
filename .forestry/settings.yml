@@ -11,9 +11,8 @@ sections:
   match: "**/*"
   exclude: home-slides.json
 - type: document
-  path: home-info
+  path: home-info.md
   label: Home Info Banner
-  match: "**/*"
 - type: document
   path: about.md
   label: About Page
