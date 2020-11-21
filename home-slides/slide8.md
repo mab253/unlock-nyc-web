@@ -1,5 +1,6 @@
 ---
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-7.png
+alt_text: 'Woman with glasses sitting on the ground, looking up '
 
 ---
 # "The broker said I needed to pay extra because of my voucher."
