@@ -1,5 +1,6 @@
 ---
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-6.png
+alt_text: Woman wearing glasses, looking up and thinking
 
 ---
 # "He said he'd check with the landlord and call me back. He never did."
