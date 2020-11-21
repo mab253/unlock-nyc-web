@@ -20,7 +20,7 @@ sections:
   label: About Page
 - type: document
   path: about.md
-  label: About Page
+  label: About Page Text
 - type: directory
   path: bios
   label: Team Bios
