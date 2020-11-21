@@ -15,8 +15,8 @@
   <div id="page">
     <section id="top" class="full">
       <div id="crowd-friends"></div>
-      <div id="key-friend"></div>
-      <div id="top-bg">
+      <div id="key-friend" role="img" aria-label="A woman reaches for a key"></div>
+      <div id="top-bg" role="img" aria-label="Friendly colorful figures looking out from NYC windows, a woman waters her plants, a parent with her child">
         <div id="top-figures"></div>
       </div>
       <div id="titles">
@@ -34,7 +34,7 @@
         <ul>
         {% for slide in collections.slides %}
         <li>
-          <img class="storyline" src="{{ slide.data.bg_img }}">
+          <img class="storyline" src="{{ slide.data.bg_img }}" alt="{{ slide.data.alt_text}}">
           <div class="slide-text">
           {{ slide.data.content }}
           </div>
@@ -45,9 +45,6 @@
     </section>
     <section id="info" style="height: auto;">
     {% include home-info.liquid %}
-      <!--<h1>It should be easier to find a home with your voucher.</h1>
-      <h2 class="banner-text">If you’ve been having a hard time finding a home with a voucher in New York City, it’s not your fault. Vouchers are supposed to help tenants find a home in cities with limited affordable housing options – and guess what? They’re a totally legitimate way to pay your rent! The vast majority of landlords in NYC are required by law to accept vouchers. And yet, landlords and brokers are turning down New Yorkers like you, every day.</h2>
-      <h2 class="banner-text">You deserve to be treated equally during your search for housing, no matter your situation. Whether you’ve been living in a family shelter, staying with friends or relatives, or you’re looking to move from your current place, you have the right to a fair housing search. We’re making it easier by offering free and friendly tools you can use to record and report discrimination. If you have experienced mistreatment at the hands of a landlord or broker, you can report it here! </h2>-->
     </section>
     <section id="report-bot" class="half">
       <div id="coming-soon">
@@ -67,7 +64,7 @@
       <div id="join-activist">
       </div>
     </section>
-    <section id="windows" style="height: 80vh;">
+    <section id="windows" style="height: 80vh;" role="img" aria-label="Friendly colorful figures looking out from NYC windows, a man with his cat, a woman writing">
       <div id="windows-figures"></div>
       <!--<div id="windows-animated"></div>-->
     </section>
