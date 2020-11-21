@@ -4,15 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: home-info.liquid
-  label: Home Banner Text
 - type: directory
   path: home-slides
   label: Stories Slider
   create: all
   match: "**/*"
   exclude: home-slides.json
+- type: document
+  path: home-info.md
+  label: Home Info Banner
 - type: document
   path: about.md
   label: About Page
