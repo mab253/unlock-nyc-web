@@ -1,5 +1,6 @@
 ---
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/chair-story.png
+alt_text: Man in a wheelchair and glasses, facing to the left
 
 ---
 # "YOU DON'T MEET THE MINIMUM INCOME REQUIREMENTS."
