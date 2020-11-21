@@ -1,5 +1,6 @@
 ---
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-5.png
+alt_text: Woman sitting and looking at her smartphone
 
 ---
 # "The broker stopped responding after I mentioned my voucher."
