@@ -1,5 +1,6 @@
 ---
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-2.png
+alt_text: Woman with blue hair and glasses, reading from a book
 
 ---
 # "They said the unit was no longer available."
