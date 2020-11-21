@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _includes/home-slide.liquid
+  label: Home Banner Text
+  match: "**/*"
 - type: directory
   path: home-slides
   label: Stories Slider
