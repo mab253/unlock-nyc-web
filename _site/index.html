@@ -15,7 +15,7 @@
   <div id="page">
     <section id="top" class="full">
       <div id="crowd-friends"></div>
-      <div id="key-friend" role="img"></div>
+      <div id="key-friend" role="img" aria-label="A woman reaches for a key"></div>
       <div id="top-bg" role="img" aria-label="Friendly colorful figures looking out from NYC windows, a woman waters her plants, a parent with her child">
         <div id="top-figures"></div>
       </div>
@@ -33,7 +33,7 @@
     <li><a href="/#report-bot">Report</a></li>
     <li><a href="/#report-bot">Record</a></li>
     <li><a href="/about">About Us</a></li>
-    <li><a href="https://www.facebook.com/WeUnlockNYC/" target="_blank"><i class="fab fa-facebook" style="font-size: 25px; vertical-align: middle;"></i></a></li>
+    <li><a href="https://www.facebook.com/WeUnlockNYC/" rel="noreferrer" target="_blank"><i aria-hidden="true" class="fab fa-facebook" style="font-size: 25px; vertical-align: middle;"></i></a></li>
   </ul>
 </div>
     <section id="stories">
@@ -184,6 +184,7 @@
       Join us by sharing your email here.</h2>
       <form id="join-email" action='https://unlock-nyc-servers.glitch.me/join-email' method='post'>
         <input type="email" name="email" required placeholder="your@email.com">
+        <label for="email" style="display:none;">E-mail address</label>
         <input type="submit" value="Join">
       </form>
       <div id="join-activist">
