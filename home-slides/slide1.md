@@ -1,5 +1,6 @@
 ---
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website.png
+alt_text: Woman with red hair and glasses, looking off to the left
 
 ---
 # "They said my income and credit score were too low."
