@@ -1,5 +1,6 @@
 ---
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-4.png
+alt_text: Woman carrying a purse, with her child looking up at her
 
 ---
 # "Only professionals live here. You must be working."
