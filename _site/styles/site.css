@@ -619,6 +619,9 @@ footer p a {
   section#info {
     padding-top: 20px;
   }
+  section#info p {
+    font-size: 4vw;
+  }
   section#join-us {
     padding-top: 20px;
   }
