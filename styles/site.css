@@ -11,6 +11,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 div {
@@ -397,7 +398,7 @@ footer {
   padding: 55px;
   background-color: White;
   color: Black;
-  border-bottom: 100px solid #ffb400;
+  border-bottom: 20px solid #ffb400;
   box-sizing: border-box;
 }
 

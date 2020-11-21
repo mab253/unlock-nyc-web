@@ -35,13 +35,14 @@
       }
       h1.home-title {
         cursor: pointer;
+        transition: all 200ms;
       }
       h1.home-title:hover {
         color: #f124c2;
       }
       #titles-wrap {
-        padding-top: 4%;
-        padding-left: 4%;
+        padding-top: 3%;
+        padding-left: 3%;
         max-width: 30%;
       }
       #headline-wrap {
@@ -65,9 +66,10 @@
         margin: auto;
       }
       #about-page h2 {
-        font-size: 22px;
+        font-size: 26px;
         font-weight: 600;
         text-transform: uppercase;
+        margin-top: 50px;
       }
       #about-page a {
         font-weight: 900;
@@ -120,6 +122,9 @@
       div.bio-content p {
         text-align: justify !important;
       }
+      div#actions {
+        margin-bottom: 30px;
+      }
       img.logo {
         width: 150px;
         vertical-align: middle;
@@ -153,7 +158,7 @@
           display: block;
         }
         #banner {
-          top: 160px;
+          top: 200px;
         }
         #headline-wrap h2 {
           font-size: 4.5vw !important;
@@ -165,7 +170,7 @@
           font-size: 6.5vw;
         }
         #titles-wrap {
-          max-width: 100%;
+          max-width: 60%;
         }
         #bios-grid {
           grid-template-columns: 100%;
@@ -202,20 +207,19 @@
     {{ content }}
     <div id="collab-logos">
       <div id="actions">
-        <img style="width: 100%;" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FHudsonYards_10.27.2020.jpg?v=1605550229501">
-        <p style="font-size: 15px; margin-top: 0; font-style: italic;">We take our cues from New Yorkers directly impacted by homelessness and from member-led organizations that mobilize for power and transformative change towards the right to housing. We support the <a href="https://www.homelesscantstayhome.org/" target="_blank">#HomelessCantStayHome</a> and VALUE in Housing campaigns, and look forward to continuing to build with our partners, collaborators, and allies in the future. </p>
+        <img style="width: 100%;" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FHudsonYards_10.27.2020.jpg?v=1605550229501" alt="Housing action, protest at Hudson Yards with banners, housing is a human right">
       </div>
       <a class="img-link" href="https://neighborstogether.org/" target="_blank">
-        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FNeighborsTogether_logo.png?v=1605548777796">
+        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FNeighborsTogether_logo.png?v=1605548777796" alt="Neighbors Together logo">
       </a>
       <a class="img-link" href="https://communitiesresist.org/" target="_blank">
-        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FCommunitiesResist_Logo.png?v=1605548782492">
+        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FCommunitiesResist_Logo.png?v=1605548782492" alt="Communities Resist logo">
       </a>
       <a class="img-link" href="https://labs.robinhood.org/" target="_blank">
-        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FBlueRidgeLabs_logo.png?v=1605548787537">
+        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FBlueRidgeLabs_logo.png?v=1605548787537" alt="Blue Ridge Labs logo">
       </a>
       <a class="img-link" href="https://www.awesomefoundation.org/en" target="_blank">
-        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FAwesomeFoundation_logo_white.jpg?v=1605548791395">
+        <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FAwesomeFoundation_logo_white.jpg?v=1605548791395" alt="Awesome Foundation logo">
       </a>
     </div>
     
@@ -244,6 +248,20 @@
         $("div#bio-wrap-grid").mouseleave(function() {
           $("div#bio-hover").css("opacity", 0).delay(1000).hide();
         });
+        
+        // sticky menu
+        $(window).scroll(function() {
+          let windowHeight = $(window).height() - 72;
+          if ($(window).scrollTop() > windowHeight) {
+            $("#menu").fadeIn("fast");
+            $("#menu").addClass("sticky");
+          } else {
+            $("#menu").fadeOut("fast");
+          }
+        }) // end scroll function
+      } else {
+        // mobile
+        $("#menu").show();
       }
     });
   </script>
