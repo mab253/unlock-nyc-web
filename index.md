@@ -1,5 +1,5 @@
 ---
-layout: home-info.liquid
+layout: home.liquid
 linkedCSS: "/styles/site.css"
 pageTitle: Home
 
