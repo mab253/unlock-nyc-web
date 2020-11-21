@@ -143,11 +143,11 @@ section#top #top-figures {
 
 section#top #key-friend {
   z-index: 1;
-  background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fkeyfriend2.png?v=1605897459315) /*url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fkeylady.png?v=1604630574318)*/;
+  background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fkeyfriend2.png?v=1605897459315);
   background-size: 100%;
   background-position: 100% 100%;
   height: 100vh;
-  width: 340px; /*280px;*/
+  width: 340px;
   position: absolute;
   bottom: 0;
   left: 24.5%;
@@ -180,8 +180,8 @@ section#top #titles {
 
 section#windows {
   background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fwindows2_bg.jpg?v=1605212250619);
-  background-position: 0 0; /*80% 100%;*/
-  background-size: 100%; /*cover;*/
+  background-position: 0 0; 
+  background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
   margin-top: 75px;
@@ -190,16 +190,16 @@ section#windows #windows-figures {
   width: 100%;
   height: 80vh;
   background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Finfo_figures2-2.svg?v=1605903715239);
-  background-position: 0 0; /*80% 100%;*/
-  background-size: 100%; /*cover;*/
+  background-position: 0 0; 
+  background-size: 100%; 
   background-repeat: no-repeat;
 }
 section#windows #windows-animated {
   width: 100%;
   height: 80vh;
   background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Foie_923312640ZlBsYT.gif?v=1604962897477);
-  background-position: 0 0; /*80% 100%;*/
-  background-size: 100%; /*cover;*/
+  background-position: 0 0; 
+  background-size: 100%; 
   background-repeat: no-repeat;
   position: absolute;
   top: 45px;
@@ -217,6 +217,11 @@ section#info {
   padding-top: 8%;
   margin-top: -50px;
   background-color: #efefef;
+}
+section#info p {
+  font-size: 24px;
+  line-height: 1.4em;
+  font-family: "Open Sans", sans-serif;
 }
 section#join-us {
   padding: 10%;
@@ -260,7 +265,7 @@ div#join-activist {
   position: absolute;
   bottom: 0;
   right: 50px;
-  background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Factivists2.png?v=1605900145982); /*url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fkey_activist.png?v=1604972956882);*/
+  background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Factivists2.png?v=1605900145982);
   background-size: contain;
   background-position: 100% 100%;
   background-repeat: no-repeat;
@@ -408,7 +413,7 @@ footer p a {
   text-decoration: none;
 }
 
-/*top banner sizing*/
+/*home top banner sizing*/
 
 @media only screen and (max-width: 1350px) {
   section#top #key-friend {
