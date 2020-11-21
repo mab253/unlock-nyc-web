@@ -1,5 +1,6 @@
 ---
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/covid-story.png
+alt_text: 'Person with curly hair and yellow pants putting a covid mask on '
 
 ---
 # "He said I needed a negative COVID test to see the apartment."
