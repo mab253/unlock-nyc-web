@@ -15,7 +15,6 @@ sections:
 - type: document
   path: index.md
   label: Home Info Text
-  match: "**/*"
 - type: heading
   label: About Us
 - type: document
