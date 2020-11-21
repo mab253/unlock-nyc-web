@@ -1,5 +1,6 @@
 ---
 bg_img: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/storytelling_website-3.png
+alt_text: Person in backwards cap, looking at smartphone
 
 ---
 # "They said the landlord only takes Section 8, not CityFHEPS."
