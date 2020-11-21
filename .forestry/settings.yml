@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: _includes/home-slide.liquid
+  path: home-slide.liquid
   label: Home Banner Text
 - type: directory
   path: home-slides
