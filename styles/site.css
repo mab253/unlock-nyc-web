@@ -436,6 +436,14 @@ footer p a {
   }
 }
 
+@media only screen and (max-width: 1084px) {
+  section#join-us input[type="submit"] {
+    display: block;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
 @media only screen and (max-width: 1000px) and (min-width: 900px) {
   #menu ul li {
     font-size: 1.8vw;
@@ -445,8 +453,28 @@ footer p a {
 }
 
 @media only screen and (max-width: 900px) and (min-width: 700px) {
+  section#top #top-bg {
+    transform: scale(0.9);
+    transform-origin: 100% 100%;
+    width: 110%;
+  }
+  section#top #key-friend {
+    width: 160px;
+    bottom: 0;
+  }
+  section#top #crowd-friends {
+    width: 170px;
+    bottom: 0;
+  }
+  section#top #titles {
+    max-width: 50%;
+  }
   h2.banner-text {
     font-size: 22px !important;
+  }
+  #menu ul li {
+    margin-right: 20px;
+    margin-left: 10px;
   }
 }
 
@@ -458,7 +486,7 @@ footer p a {
 
 /*mobile*/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   #menu {
     position: relative;
     bottom: 0;
@@ -607,9 +635,6 @@ footer p a {
   }
   section#join-us input[type="submit"] {
     border-radius: 0;
-    display: block;
-    margin-left: 0;
-    margin-top: 20px;
     font-size: 5vw;
     -webkit-appearance: none;
     -webkit-border-radius: 0;

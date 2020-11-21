@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: Homepage
 - type: directory
   path: home-slides
   label: Stories Slider
@@ -13,10 +11,8 @@ sections:
   match: "**/*"
   exclude: home-slides.json
 - type: document
-  path: index.md
-  label: Home Info Text
-- type: heading
-  label: About Us
+  path: home-info.md
+  label: Home Info Banner
 - type: document
   path: about.md
   label: About Page
