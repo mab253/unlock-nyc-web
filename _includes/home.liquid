@@ -10,6 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/910fe5b89c.js" crossorigin="anonymous"></script>
+    <style>
+      #mobile-menu {
+        display: none !important;
+      }
+      #menu {
+        display: block !important;
+      }
+    </style>
   </head>
   <body>
   
@@ -91,8 +99,28 @@
           } else {
             $("#menu").removeClass("sticky");
           }
-        }) // end scroll function
+        }); // end scroll function
       }
+      
+      $(window).resize(function() {
+        slideTextCheck();
+        if($(window).width() > 700) {
+        // sticky menu
+        $(window).scroll(function() {
+          windowHeight = $("section#top").height() - 83;
+          if ($(window).scrollTop() > windowHeight) {
+            $("#menu").addClass("sticky");
+          } else {
+            $("#menu").removeClass("sticky");
+          }
+        }); // end scroll function
+        } else {
+          $(window).scroll(function() {
+            $("#menu").removeClass("sticky");
+          });
+        }
+        
+      });
                   
       function slideTextCheck() {
         $("#slider div.slide-text").each(function() {
@@ -103,8 +131,10 @@
                 $(this).addClass("longtitle");
               }
             }
-            if ($(window).width() < 900) {
+            if ($(window).width() < 700) {
               $(this).parent("li").children("img.storyline").css("top", 10);
+            } else {
+              $(this).parent("li").children("img.storyline").css("top", 130);
             }
         });
       }
