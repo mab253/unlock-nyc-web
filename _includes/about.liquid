@@ -175,6 +175,10 @@
         #bios-grid {
           grid-template-columns: 100%;
         }
+        #menu {
+          position: fixed;
+          bottom: 60px;
+        }
       }
     </style>
   </head>
@@ -259,10 +263,31 @@
             $("#menu").fadeOut("fast");
           }
         }) // end scroll function
-      } else {
-        // mobile
-        $("#menu").show();
       }
+      
+      $("#mobile-menu").click(function() {
+        $("#menu").fadeToggle("fast");
+      });
+      
+      $(window).resize(function() {
+        if($(window).width() > 700) {
+        // sticky menu
+        $(window).scroll(function() {
+          windowHeight = $(window).height() - 83;
+          if ($(window).scrollTop() > windowHeight) {
+            $("#menu").addClass("sticky");
+          } else {
+            $("#menu").removeClass("sticky");
+          }
+        }); // end scroll function
+        } else {
+          $(window).scroll(function() {
+            $("#menu").hide();
+            $("#menu").removeClass("sticky");
+          });
+        }
+        
+      });
     });
   </script>
   </body>

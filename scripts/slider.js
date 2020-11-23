@@ -6,7 +6,7 @@ $(document).ready(function() {
   if ($(window).width() > 700) {
     var slideHeight = $(window).height();
   } else {
-    var slideHeight = 800;
+    var slideHeight = 700;
   }
   var sliderUlWidth = slideCount * slideWidth;
 
@@ -16,10 +16,14 @@ $(document).ready(function() {
   $("#slider ul li:last-child").prependTo("#slider ul");
 
   $(window).resize(function() {
-    var slideCount = $("#slider ul li").length;
-    var slideWidth = $(window).width();
-    var slideHeight = $(window).height();
-    var sliderUlWidth = slideCount * slideWidth;
+    slideCount = $("#slider ul li").length;
+    slideWidth = $(window).width();
+    if ($(window).width() > 700) {
+      slideHeight = $(window).height();
+    } else {
+      slideHeight = 700;
+    }
+    sliderUlWidth = slideCount * slideWidth;
 
     $("#slider").css({ width: slideWidth, height: slideHeight });
     $("#slider ul").css({ width: sliderUlWidth, marginLeft: -slideWidth });
@@ -61,5 +65,4 @@ $(document).ready(function() {
     moveRight();
     clearInterval(autoslide);
   });
-
 });
