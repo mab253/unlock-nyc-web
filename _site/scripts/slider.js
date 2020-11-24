@@ -3,11 +3,18 @@ $(document).ready(function() {
 
   var slideCount = $("#slider ul li").length;
   var slideWidth = $(window).width();
-  if ($(window).width() > 700) {
-    var slideHeight = $(window).height();
+  if ($(window).width() > 800) {
+    if ($(window).height() > $(window).width() * 0.7) {
+      var slideHeight = $(window).height() * 0.8;
+    } else {
+      slideHeight = $(window).height();
+    }
+  } else if ($(window).innerWidth() < 500) {
+    slideHeight = 575;
   } else {
-    var slideHeight = 700;
+    slideHeight = 700;
   }
+
   var sliderUlWidth = slideCount * slideWidth;
 
   $("#slider").css({ width: slideWidth, height: slideHeight });
@@ -18,8 +25,14 @@ $(document).ready(function() {
   $(window).resize(function() {
     slideCount = $("#slider ul li").length;
     slideWidth = $(window).width();
-    if ($(window).width() > 700) {
-      slideHeight = $(window).height();
+    if ($(window).width() > 800) {
+      if ($(window).height() > $(window).width() * 0.7) {
+        var slideHeight = $(window).height() * 0.8;
+      } else {
+        slideHeight = $(window).height();
+      }
+    } else if ($(window).innerWidth() < 500) {
+      slideHeight = 575;
     } else {
       slideHeight = 700;
     }

@@ -32,7 +32,7 @@
         <h1 class="home-title">Unlock NYC</h1>
         <h2 class="home-subtitle">Tools for a fair housing search</h2>
         <br>
-        <h2 class="home-info">Do landlords keep saying "no" to your voucher? Use our tools to record it and report it – right from your phone.</h2>
+        <h2 class="home-info"><span style="background-color: rgba(255,255,255,0.5); font-weight: 400;">Do landlords keep saying "no" to your voucher? Use our tools to record it and report it – right from your phone.</span></h2>
       </div>
     </section>
     {% include menu.liquid %}
@@ -93,7 +93,7 @@
       if($(window).width() > 700) {
         // sticky menu
         $(window).scroll(function() {
-          let windowHeight = $(window).height() - 72;
+          let windowHeight = $(window).height() - 83;
           if ($(window).scrollTop() > windowHeight) {
             $("#menu").addClass("sticky");
           } else {
@@ -133,6 +133,8 @@
             }
             if ($(window).width() < 700) {
               $(this).parent("li").children("img.storyline").css("top", 10);
+            } else if($(window).width() > 700 && $(window).width() < 1100) {
+              $(this).parent("li").children("img.storyline").css("top", 100);
             } else {
               $(this).parent("li").children("img.storyline").css("top", 130);
             }
