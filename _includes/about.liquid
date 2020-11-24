@@ -45,7 +45,7 @@
         padding-left: 3%;
         max-width: 30%;
       }
-      #headline-wrap {
+      /*#headline-wrap {
         width: 140%;
         margin-left: -20%;
         padding: 20%;
@@ -60,11 +60,12 @@
       #headline-wrap h2 {
         text-transform: none !important;
         font-size: 32px !important;
-      }
+      }*/
       #about-page {
         padding: 4%;
         max-width: 80%;
         margin: auto;
+        margin-top: 100px;
       }
       #about-page h2 {
         font-size: 26px;
@@ -212,15 +213,7 @@
   </div>
   
   <div id="about-page">
-    <div id="headline-wrap">
-      <h2>
-        Up to 80% of homeless New Yorkers who are looking for an apartment can’t find a place to live.
-      </h2>
-      <h2>
-        We strive to make the apartment search process transparent, fair, and free from discrimination for all New Yorkers. 
-      </h2>
-    </div>
-    {{ content }}
+    {{ content | safe }}
     <div id="collab-logos">
       <a class="img-link" href="https://neighborstogether.org/" target="_blank">
         <img class="logo" src="https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2FNeighborsTogether_logo.png?v=1605548777796" alt="Neighbors Together logo">
