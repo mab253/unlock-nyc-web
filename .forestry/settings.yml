@@ -6,6 +6,9 @@ webhook_url:
 sections:
 - type: heading
   label: Homepage
+- type: document
+  path: index.md
+  label: Home Info Banner
 - type: directory
   path: home-slides
   label: Stories Slider
@@ -14,9 +17,6 @@ sections:
   exclude: home-slides.json
   templates:
   - story-slide
-- type: document
-  path: index.md
-  label: Home Info Banner
 - type: heading
   label: About Us
 - type: document
