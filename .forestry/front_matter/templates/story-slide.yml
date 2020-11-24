@@ -16,6 +16,7 @@ fields:
   description: for accessibility! describe the story's background image
 pages:
 - home-slides/slide1.md
+- home-slides/slide10.md
 - home-slides/slide2.md
 - home-slides/slide3.md
 - home-slides/slide4.md
