@@ -4,7 +4,7 @@ linkedCSS: "/styles/site.css"
 pageTitle: About Us
 
 ---
-# We strive to make the apartment search process transparent, fair, and free from discrimination for all <a href="https://www.google.com">New Yorkers.</a>
+# We strive to make the apartment search process transparent, fair, and free from discrimination for all New Yorkers.
 
 ## Our Story
 
