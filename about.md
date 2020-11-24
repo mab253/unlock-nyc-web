@@ -29,3 +29,5 @@ At Unlock NYC, we value lived experience as expertise. Our tools are at their be
 ## Our Supporters + Collaborators
 
 We take our cues from New Yorkers directly impacted by homelessness and from member-led organizations that mobilize for power and transformative change towards the right to housing. We support the [**#HomelessCantStayHome**](https://www.homelesscantstayhome.org/) and VALUE in Housing campaigns, and look forward to continuing to build with our partners, collaborators, and allies in the future.
+
+![Housing action, protest at Hudson Yards with banners, housing is a human right](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/housing_action.jpg "Housing action")
