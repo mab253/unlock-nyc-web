@@ -35,7 +35,6 @@
       }
       h1.home-title {
         cursor: pointer;
-        transition: all 200ms;
       }
       h1.home-title:hover {
         color: #f124c2;
@@ -55,6 +54,7 @@
         color: #23286a;
         margin-top: 75px;
         margin-bottom: 75px;
+        overflow-x: hidden;
       }
       #headline-wrap h2 {
         text-transform: none !important;
@@ -140,31 +140,42 @@
       @media only screen and (max-width: 1050px) {
         #banner {
           width: 100%;
-          top: 300px;
+          top: 227px;
           background-size: cover;
         }
         #banner-figures {
           background-size: cover;
         }
         #about-page {
-          margin-top: 50vh;
+          margin-top: 33vh;
         }
       }
       @media only screen and (max-width: 700px) {
+        #banner {
+          background-size: contain;
+          top: 180px;
+        }
+        #banner-figures {
+          background-size: contain;
+        }
+        #about-page {
+          margin-top: 20vh;
+        }
         div.bio-wrapper {
           cursor: initial;
         }
         div.bio-content {
           display: block;
         }
-        #banner {
-          top: 200px;
-        }
         #headline-wrap h2 {
           font-size: 4.5vw !important;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          margin-top: 10px;
+          margin-bottom: 10px;
         }
         #about-page {
-          max-width: 90%;
+          max-width: 95%;
         }
         #about-page h1 {
           font-size: 6.5vw;

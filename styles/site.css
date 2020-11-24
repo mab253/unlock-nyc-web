@@ -234,8 +234,8 @@ h2.banner-text {
 }
 section#info {
   padding: 10%;
-  padding-top: 8%;
-  margin-top: -50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #efefef;
 }
 section#info p {
@@ -459,9 +459,20 @@ footer p a {
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 900px) {
-  /*section#windows {
+  section#windows {
     height: 60vh !important;
-  }*/
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-height: 850px) {
+  section#top #crowd-friends {
+    width: 140px;
+  }
+  section#top #key-friend {
+    width: 200px;
+    left: 17%;
+  }
 }
 
 @media only screen and (max-width: 1084px) {
@@ -505,11 +516,58 @@ footer p a {
   }
 }
 
-@media only screen and (min-height: 700px) and (max-height: 840px) {
-  section#top #crowd-friends {
-    width: 200px;
+@media only screen and (min-width: 700px) and (max-width: 1150px) {
+  h1.home-title {
+    font-size: 75px;
   }
 }
+
+@media only screen and (max-height: 850px) and (max-width: 1400px) and (min-width: 700px) {
+  h1.home-title {
+    font-size: 75px;
+  }
+}
+
+/*tablet portraits*/
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    section#top #top-bg {
+      width: 110%;
+    }
+    section#top #crowd-friends {
+      width: 220px;
+    }
+    section#top #key-friend {
+      width: 300px;
+      bottom: 30px;
+    }
+    #slider ul li img.storyline {
+      top: 150px !important;
+    }
+    section#join-us input[type="submit"] {
+      padding: 12px 60px;
+      font-size: 25px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #slider ul li img.storyline {
+      top: 120px !important;
+    }
+  div.slide-text h1 {
+    height: 20vh;
+  }
+  div.slide-text {
+    width: 60% !important;
+  }
+ }
 
 /*mobile*/
 
@@ -628,6 +686,9 @@ footer p a {
   div.control_next {
     right: 2px;
   }
+  div.control_prev, div.control_next {
+    top: 30%;
+  }
 
   section#windows {
     background-position: 80% 100%;
@@ -654,6 +715,7 @@ footer p a {
   }
   section#info {
     padding-top: 20px;
+    margin-top: -10vh;
   }
   section#info p {
     font-size: 4vw;
