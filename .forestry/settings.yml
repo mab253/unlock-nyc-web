@@ -26,16 +26,6 @@ sections:
   create: all
   match: "**/*"
   exclude: bios.json
-  templates:
-  - bio
-- type: directory
-  path: leadership-collective
-  label: Leadership Collective
-  create: all
-  match: "**/*"
-  exclude: leaders.json
-  templates:
-  - bio
 upload_dir: uploads
 public_path: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads
 front_matter_path: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads
