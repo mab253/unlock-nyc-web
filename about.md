@@ -4,6 +4,8 @@ linkedCSS: "/styles/site.css"
 pageTitle: About Us
 
 ---
+# We strive to make the apartment search process transparent, fair, and free from discrimination for all New Yorkers.
+
 ## Our Story
 
 Our founding team met through [Blue Ridge Labs](https://labs.robinhood.org/ "Blue Ridge Labs") @ [Robin Hood](https://www.robinhood.org/ "Robin Hood"), a social impact incubator that brings together technologists, designers, and communities to address critical problems facing New Yorkers through new and untested solutions. During our research, we heard stories from dozens of homeless New Yorkers who were repeatedly and unlawfully denied access to a home. Again and again, they called an apartment listing to schedule a viewing, and were met with the same range of responses: “Sorry, the unit is no longer available,” “The landlord prefers a working professional,” or “We don’t take Section 8 here.” Often hiding in plain sight, discrimination happens in a split second over the phone, and can be tough to recognize, let alone document. As a result, countless New Yorkers remain homeless for months, if not years, and those who discriminate routinely profit from breaking the law.
