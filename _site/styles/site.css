@@ -691,7 +691,7 @@ and (orientation : portrait) {
   }
 
   section#windows {
-    background-position: 80% 100%;
+    background-position: 0 100%;
     background-size: cover;
     background-repeat: no-repeat;
     max-height: 50vh !important;
@@ -699,12 +699,12 @@ and (orientation : portrait) {
   }
   section#windows #windows-figures {
     max-height: 50vh !important;
-    background-position: 80% 100%;
+    background-position: 0 100%;
     background-size: cover;
     background-repeat: no-repeat;
   }
   section#windows #windows-animated {
-    background-position: 80% 100%;
+    background-position: 0 100%;
     background-size: cover;
     background-repeat: no-repeat;
     display: none;
