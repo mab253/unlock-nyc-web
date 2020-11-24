@@ -29,7 +29,7 @@ sections:
   match: "**/*"
   exclude: bios.json
 - type: directory
-  path: leadership-collective
+  path: leaders
   label: Leadership Bios
   create: all
   match: "**/*"
