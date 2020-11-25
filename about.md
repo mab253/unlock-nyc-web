@@ -8,7 +8,7 @@ pageTitle: About Us
 
 ## Our Story
 
-Our founding team met through [Blue Ridge Labs](https://labs.robinhood.org/ "Blue Ridge Labs") @ [Robin Hood](https://www.robinhood.org/ "Robin Hood"), a social impact incubator that brings together technologists, designers, and communities to address critical problems facing New Yorkers through new and untested solutions. During our research, we heard stories from dozens of New Yorkers who were repeatedly and unlawfully denied access to a home, simply because they received government assistance to pay for rent. Whether they were staying in a family shelter, living doubled-up with friends or relatives, or trying to leave a precarious living arrangement, they would call an apartment listing to schedule a viewing, and were met with the same range of responses, over and over again: “Sorry, the unit is no longer available,” “No vouchers,” “The landlord prefers a working professional,” or “We don’t take Section 8 here.” 
+Our founding team met through [Blue Ridge Labs](https://labs.robinhood.org/ "Blue Ridge Labs") @ [Robin Hood](https://www.robinhood.org/ "Robin Hood"), a social impact incubator that brings together technologists, designers, and communities to address critical problems facing New Yorkers through new and untested solutions. During our research, we heard stories from dozens of New Yorkers who were repeatedly and unlawfully denied access to a home, simply because they received government assistance to pay for rent. Whether they were staying in a family shelter, living doubled-up with friends or relatives, or trying to leave a precarious living arrangement, they would call an apartment listing to schedule a viewing, and were met with the same range of responses, over and over again: “Sorry, the unit is no longer available,” “No vouchers,” “The landlord prefers a working professional,” or “We don’t take Section 8 here.”
 
 Often hiding in plain sight, discrimination happens in a split second over the phone, and can be tough to recognize, let alone document. As a result, countless New Yorkers remain homeless or in unsafe housing situations for months, if not years, and those who discriminate routinely profit from breaking the law.
 
@@ -18,7 +18,7 @@ At Unlock NYC, we work with New Yorkers impacted by housing discrimination to bu
 
 ![Participatory design workshop, working together to build a chatbot](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/buildbot-1.jpg "Build-A-Bot")
 
-We couldn’t do this work without the many New Yorkers who’ve shared their stories and insights with us through interviews, surveys, participatory design sessions, and more. We’re committed to continue to co-design our tools with homeless New Yorkers and grassroots advocates to ensure that everything we build is useful, relevant, and responds to the priorities of people most affected by housing injustice in our city.
+We couldn’t do this work without the many New Yorkers who’ve shared their stories and insights with us through interviews, surveys, participatory design sessions, and more. We’re committed to continue to co-design our tools with New Yorkers and grassroots advocates to ensure that everything we build is useful, relevant, and responds to the priorities of people most affected by housing injustice in our city.
 
 ## Our Day-to-Day Team
 
