@@ -26,7 +26,7 @@ We’re a small and dedicated team that deeply believes in every human’s right
 
 {% include bios.liquid %}
 
-## Our Leadership Collective {#leadership-collective}
+## Our Leadership Collective 
 
 At Unlock NYC, we value lived experience as expertise. Our tools are at their best when the people who use them are involved in big decisions from the start. As close collaborators and advisors to the Unlock NYC team, Leadership Collective members help shape the direction of our organization, and make sure that the knowledge, ideas, and vision of New Yorkers directly impacted by housing discrimination are at the heart of our work. Each Leadership Collective member brings a unique perspective and a set of skills to help inform strategic decisions.
 
