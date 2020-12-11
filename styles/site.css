@@ -90,6 +90,15 @@ h2.home-info {
   cursor: pointer;
 }
 
+#menu ul li#donate {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  padding: 10px 20px;
+  background-color: #efc02a;
+  color: black;
+}
+
 #menu ul li a {
   color: inherit;
   text-decoration: none;
@@ -98,6 +107,11 @@ h2.home-info {
 #menu ul li:hover {
   border-bottom: 1px dotted #f023c2;
 }
+
+#menu ul li#donate:hover {
+  background-color: #56c79b !important;
+}
+
 #mobile-menu {
   display: none;
   position: fixed;
@@ -200,7 +214,7 @@ section#top #titles {
 
 section#windows {
   background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Fwindows2_bg.jpg?v=1605212250619);
-  background-position: 0 0; 
+  background-position: 0 0;
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -210,16 +224,16 @@ section#windows #windows-figures {
   width: 100%;
   height: 80vh;
   background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Finfo_figures2-2.svg?v=1605903715239);
-  background-position: 0 0; 
-  background-size: 100%; 
+  background-position: 0 0;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 section#windows #windows-animated {
   width: 100%;
   height: 80vh;
   background: url(https://cdn.glitch.com/b185c63a-8d27-412b-b4cb-047ca0c8de79%2Foie_923312640ZlBsYT.gif?v=1604962897477);
-  background-position: 0 0; 
-  background-size: 100%; 
+  background-position: 0 0;
+  background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
   top: 45px;
@@ -443,7 +457,7 @@ footer p a {
     left: 25%;
   }
   section#top #crowd-friends {
-      width: 210px;
+    width: 210px;
   }
   section#top #titles {
     max-width: 23%;
@@ -530,44 +544,37 @@ footer p a {
 
 /*tablet portraits*/
 
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    section#top #top-bg {
-      width: 110%;
-    }
-    section#top #crowd-friends {
-      width: 220px;
-    }
-    section#top #key-friend {
-      width: 300px;
-      bottom: 30px;
-    }
-    #slider ul li img.storyline {
-      top: 150px !important;
-    }
-    section#join-us input[type="submit"] {
-      padding: 12px 60px;
-      font-size: 25px;
-    }
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  section#top #top-bg {
+    width: 110%;
+  }
+  section#top #crowd-friends {
+    width: 220px;
+  }
+  section#top #key-friend {
+    width: 300px;
+    bottom: 30px;
+  }
+  #slider ul li img.storyline {
+    top: 150px !important;
+  }
+  section#join-us input[type="submit"] {
+    padding: 12px 60px;
+    font-size: 25px;
+  }
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   #slider ul li img.storyline {
-      top: 120px !important;
-    }
+    top: 120px !important;
+  }
   div.slide-text h1 {
     height: 20vh;
   }
   div.slide-text {
     width: 60% !important;
   }
- }
+}
 
 /*mobile*/
 
@@ -588,7 +595,15 @@ and (orientation : portrait) {
     margin-bottom: 10px;
     border-bottom: 1px dotted #f023c2;
   }
-  
+  #menu ul li#donate {
+    position: initial;
+    right: initial;
+    top: initial;
+    padding: 8px 20px;
+    background-color: #efc02a;
+    color: black;
+  }
+
   h1 {
     font-size: 7vw;
   }
@@ -608,7 +623,7 @@ and (orientation : portrait) {
     /*min-height: 60vh !important;*/
     height: auto;
   }
-  
+
   div#page section#top {
     min-height: 60vh;
   }
@@ -616,11 +631,11 @@ and (orientation : portrait) {
   div#page section.half {
     min-height: 90vh;
   }
-  
+
   h1.home-title {
     font-size: 12vw;
   }
-  
+
   section#top h2.home-subtitle {
     font-size: 5vw;
   }
@@ -653,7 +668,7 @@ and (orientation : portrait) {
     width: 100% !important;
     top: 30px !important;
   }
-  
+
   #slider ul li {
     transform: none;
     -webkit-transform: none;
@@ -689,7 +704,8 @@ and (orientation : portrait) {
   div.control_next {
     right: 2px;
   }
-  div.control_prev, div.control_next {
+  div.control_prev,
+  div.control_next {
     top: 30%;
   }
 
@@ -726,12 +742,12 @@ and (orientation : portrait) {
   section#join-us {
     padding-top: 20px;
   }
-  
+
   div#join-activist {
     width: 50%;
     right: 10px;
   }
-  
+
   section#join-us input[type="email"] {
     width: 100%;
     font-size: 4vw;
