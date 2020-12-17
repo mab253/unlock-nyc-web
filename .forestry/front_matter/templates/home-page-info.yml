@@ -1,7 +1,17 @@
 ---
 label: Home Page Info
 hide_body: false
-fields: []
+fields:
+- name: test
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: test
+  description: questions can go in here?
 pages:
 - _includes/faq.md
 - index.md
