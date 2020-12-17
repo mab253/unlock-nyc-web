@@ -257,6 +257,17 @@ section#info p {
   line-height: 1.4em;
   font-family: "Open Sans", sans-serif;
 }
+
+section#faq h2 {
+  border-bottom: 2px dotted Darkblue;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+section#faq p {
+  font-size: 24px;
+}
+
 section#join-us {
   padding: 10%;
   padding-top: 50px;
