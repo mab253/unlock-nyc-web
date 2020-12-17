@@ -16,7 +16,7 @@ sections:
   - story-slide
 - type: document
   path: index.md
-  label: Home Info + Questions
+  label: Info + Questions
 - type: heading
   label: About Us
 - type: document
