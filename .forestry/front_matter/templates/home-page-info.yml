@@ -3,4 +3,5 @@ label: Home Page Info
 hide_body: false
 fields: []
 pages:
+- _includes/faq.md
 - index.md
