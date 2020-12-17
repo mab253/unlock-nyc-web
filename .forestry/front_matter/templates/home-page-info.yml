@@ -11,7 +11,8 @@ fields:
     schema:
       format: html-blocks
   label: Questions
-  description: Write the questions in &lt;<strong>h2</strong>&gt; format, and the
-    answers in paragraph plaintext.
+  description: These are the "FAQ" questions near the bottom of the homepage.<br><br>Write
+    the questions in &lt;<strong>h2</strong>&gt; format, and the answers in paragraph
+    plaintext.
 pages:
 - index.md
