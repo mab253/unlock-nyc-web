@@ -13,6 +13,6 @@ fields:
   label: Questions
   description: These are the "FAQ" questions near the bottom of the homepage.<br><br>Write
     the questions in &lt;<strong>h2</strong>&gt; format, and the answers in paragraph
-    plaintext right after each question.
+    plaintext.
 pages:
 - index.md

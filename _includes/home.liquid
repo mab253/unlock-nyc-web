@@ -133,11 +133,11 @@
       });
       
       $("section#faq h2").each(function(){
-        $(this).append('<i class="fal fa-chevron-circle-down" style="color: #f123c3;"></i>');
+        $(this).append('&nbsp;<i class="fal fa-chevron-circle-down" style="color: #f123c3;"></i>');
       });
       
       $("section#faq h2").click(function(){
-        $(this).next("p").toggle();
+        $(this).nextUntil("h2").toggle();
         let arrowCheck = $(this).children("i.fal").attr("class");
         if (arrowCheck.indexOf("up") > -1) {
           $(this).children("i.fal").removeClass("fa-chevron-circle-up");
