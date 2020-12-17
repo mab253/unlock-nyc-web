@@ -1,6 +1,17 @@
 ---
 label: Home Page Info
 hide_body: false
-fields: []
+fields:
+- name: questions
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Questions
+  description: Write the questions in &lt;<strong>h2</strong>&gt; format, and the
+    answers in paragraph plaintext.
 pages:
 - index.md
