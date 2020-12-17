@@ -2,7 +2,7 @@
 layout: home.liquid
 linkedCSS: "/styles/site.css"
 pageTitle: Home
-test: this is a test.
+questions: the questions go here
 
 ---
 # It should be easier to find a home with your voucher.
