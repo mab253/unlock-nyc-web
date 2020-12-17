@@ -132,6 +132,10 @@
         
       });
       
+      $("section#faq h2").each(function(){
+        $(this).append('<i class="fal fa-chevron-circle-down" style="color: #f123c3;"></i>');
+      });
+      
       $("section#faq h2").click(function(){
         $(this).next("p").toggle();
         let arrowCheck = $(this).children("i.fal").attr("class");
