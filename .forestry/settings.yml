@@ -17,9 +17,6 @@ sections:
 - type: document
   path: index.md
   label: Home Info Banner
-- type: document
-  path: faq.md
-  label: Questions
 - type: heading
   label: About Us
 - type: document
