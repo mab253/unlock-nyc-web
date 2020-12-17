@@ -17,6 +17,10 @@ sections:
 - type: document
   path: index.md
   label: Home Info Banner
+- type: document
+  path: _includes/faq.md
+  label: Questions
+  match: "**/*"
 - type: heading
   label: About Us
 - type: document
