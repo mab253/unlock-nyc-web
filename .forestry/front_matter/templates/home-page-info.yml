@@ -9,7 +9,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Questions
   description: Write the questions in &lt;<strong>h2</strong>&gt; format, and the
     answers in paragraph plaintext.
