@@ -137,7 +137,7 @@
       });
       
       $("section#faq h2").click(function(){
-        $(this).next("p").toggle();
+        $(this).nextUntil("h2").toggle();
         let arrowCheck = $(this).children("i.fal").attr("class");
         if (arrowCheck.indexOf("up") > -1) {
           $(this).children("i.fal").removeClass("fa-chevron-circle-up");
