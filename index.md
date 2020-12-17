@@ -2,15 +2,16 @@
 layout: home.liquid
 linkedCSS: "/styles/site.css"
 pageTitle: Home
-questions: "<h1>Questions</h1><h2>Why should I report? </h2><p>When you use your voice
+questions: "<h1>Questions</h1><h2>Why should I report?</h2><p>When you use your voice
   to report where discrimination is happening, who’s doing it, and what it sounds
   like, you’re helping paint a clearer picture of discrimination - so that together
   we can better push back against it! With your help, we can hold landlords and brokers
-  accountable for breaking the law and push for policies that make vouchers work.</p><h2>Do
-  you have a list of apartments I can apply for? </h2><p>We’re not brokers - we offer
-  tools and tips to support you throughout the apartment search process. Our goal
-  here is to ensure every New Yorker can search and find a home without facing discrimination.</p><h2>Are
-  these reports safe? Do you work with landlords? </h2><p>We are an independent organization
+  accountable for breaking the law and push for policies that make vouchers work.</p><p>It
+  is important to have data to shed light on the issue.</p><h2>Do you have a list
+  of apartments I can apply for?</h2><p>We’re not brokers - we offer tools and tips
+  to support you throughout the apartment search process. Our goal here is to ensure
+  every New Yorker can search and find a home without facing discrimination.</p><h2>Are
+  these reports safe? Do you work with landlords?</h2><p>We are an independent organization
   that is not affiliated with any real estate management company, landlord, brokering
   agency, housing authority, or homeless shelter services. Your personal information
   will never be shared with anyone without your permission.</p>"
