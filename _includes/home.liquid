@@ -18,6 +18,9 @@
       #menu {
         display: block !important;
       }
+      section#faq p {
+        display: none;
+      }
     </style>
   </head>
   <body>
@@ -62,6 +65,12 @@
         <h2 class="banner-text">We think it should be quick and easy to report shady landlord behavior, every time. 
         And, we think you deserve to know what happens to your report. That’s why we’re building free tools that will allow you to record your phone calls to 
         apartments you’re interested in, and report discriminatory incidents. Stay tuned for more details!</h2>
+    </section>
+    <section id="faq" class="half" style="padding: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #efefef;">
+    {% include faq.liquid %}
     </section>
     <section id="join-us" class="half">
       <h1>Sign up for Updates</h1>
@@ -119,6 +128,19 @@
           $(window).scroll(function() {
             $("#menu").removeClass("sticky");
           });
+        }
+        
+      });
+      
+      $("section#faq h2").click(function(){
+        $(this).next("p").toggle();
+        let arrowCheck = $(this).children("i.fal").attr("class");
+        if (arrowCheck.indexOf("up") > -1) {
+          $(this).children("i.fal").removeClass("fa-chevron-circle-up");
+          $(this).children("i.fal").addClass("fa-chevron-circle-down");
+        } else {
+          $(this).children("i.fal").removeClass("fa-chevron-circle-down");
+          $(this).children("i.fal").addClass("fa-chevron-circle-up");
         }
         
       });
