@@ -20,7 +20,6 @@ sections:
 - type: document
   path: _includes/faq.md
   label: Questions
-  match: "**/*"
 - type: heading
   label: About Us
 - type: document
