@@ -112,6 +112,10 @@ h2.home-info {
   background-color: #56c79b !important;
 }
 
+#menu ul li a i.fab:hover {
+  color: White;
+}
+
 #mobile-menu {
   display: none;
   position: fixed;

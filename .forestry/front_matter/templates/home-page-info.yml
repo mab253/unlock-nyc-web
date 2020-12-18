@@ -12,7 +12,7 @@ fields:
       format: html-blocks
   label: Questions
   description: These are the "FAQ" questions near the bottom of the homepage.<br><br>Write
-    the questions in <strong>Heading 2</strong> format, and the answers in paragraph
-    plaintext right after each question.
+    the questions in &lt;<strong>h2</strong>&gt; format, and the answers in paragraph
+    plaintext.
 pages:
 - index.md
