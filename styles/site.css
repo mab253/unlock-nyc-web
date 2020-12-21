@@ -310,6 +310,12 @@ section#join-us input[type="submit"] {
 section#join-us input[type="submit"]:hover {
   background-color: #56c79b;
 }
+section#join-us a {
+  color: #efc02a;
+}
+section#join-us a:hover {
+  color: White;
+}
 div#join-activist {
   width: 18%;
   height: 250px;
