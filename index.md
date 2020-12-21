@@ -10,11 +10,11 @@ questions: "<h1>Questions</h1><h2>Why should I report?</h2><p>When you use your 
   you have a list of apartments I can apply for?</h2><p>We’re not brokers! We offer
   tools and tips to support you throughout the apartment search process. Our goal
   here is to ensure every New Yorker can search for and find a home without facing
-  discrimination due to their voucher.</p><h2>Are these reports safe? Do you work
-  with landlords?</h2><p>We are an independent group that is not affiliated with any
-  real estate management company, landlord, brokering agency, housing authority, or
-  homeless shelter services. You can choose to report anonymously, and we will never
-  share your personal information without your permission.</p>"
+  discrimination due to their voucher.</p><h2>How do you keep my reports and information
+  secure?</h2><p>We are an independent group that is not affiliated with any real
+  estate management company, landlord, brokering agency, housing authority, or homeless
+  shelter services. You can choose to report anonymously, and we will never share
+  your personal information without your permission.</p>"
 
 ---
 # It should be easier to find a home with your voucher.
