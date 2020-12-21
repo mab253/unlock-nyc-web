@@ -14,16 +14,16 @@ questions: "<h1>Questions</h1><h2>Why should I report?</h2><p>When you use your 
   secure?</h2><p>We are an independent group that is not affiliated with any real
   estate management company, landlord, brokering agency, housing authority, or homeless
   shelter services. You can choose to report anonymously, and we will never share
-  your personal information without your permission.</p><h2>How is reporting with
-  Unlock NYC different from calling 311?</h2><p>When you report through Unlock NYC,
-  your report can do more. If you request a formal investigation and attach evidence,
-  we can send it to the city on your behalf –&nbsp;just like if you called 311.</p><p>But,
-  your report will also help change the <em>system</em> by making data about voucher
-  discrimination available to the community-based organizations and advocates who
-  are leading the movement to end it. Our partners use our reports to understand patterns
-  about voucher discrimination –&nbsp;who's doing it, where it's happening, what it
-  sounds like – so they can focus their attention and resources where they're most
-  needed.</p>"
+  your personal information without your permission.</p><h2>How is using Unlock NYC
+  different from calling 311?</h2><p>When you report through Unlock NYC, your report
+  can do more. </p><p>If you request a formal investigation and attach evidence, we
+  can send it to the city on your behalf – just like if you called 311.</p><p>But,
+  in addition, your report will also help change the <em>system</em> by making data
+  about voucher discrimination available to the community-based organizations and
+  advocates who are leading the movement to end it. Our partners use our reports to
+  understand patterns about voucher discrimination – who's doing it, where it's happening,
+  what it sounds like – so they can focus their attention and resources where they're
+  most needed.</p>"
 
 ---
 # It should be easier to find a home with your voucher.
