@@ -456,6 +456,8 @@ footer {
   color: Black;
   border-bottom: 20px solid #ffb400;
   box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 footer p {
@@ -468,6 +470,14 @@ footer p {
 footer p a {
   color: inherit;
   text-decoration: none;
+}
+
+footer p a:hover {
+  border-bottom: 1px dotted Black;
+}
+
+footer div#footer-right {
+  text-align: right;
 }
 
 /*home top banner sizing*/
@@ -632,10 +642,16 @@ footer p a {
   footer {
     padding: 30px;
     padding-bottom: 80px;
+    display: block;
   }
 
   footer p {
     font-size: 14px;
+  }
+  
+  footer div#footer-right {
+    text-align: left;
+    margin-top: 20px;
   }
 
   /*mobile home page*/
