@@ -41,7 +41,6 @@ sections:
 - type: document
   path: privacy.md
   label: Privacy Policy
-  match: "**/*"
 upload_dir: uploads
 public_path: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads
 front_matter_path: https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads
