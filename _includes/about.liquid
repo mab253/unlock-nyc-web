@@ -234,6 +234,23 @@
         window.location.href= "/";
       });
       
+      $("a[href^=http]").each(function() {
+        let address = $(this).attr("href");
+        if (address.indexOf("unlock") > -1) {
+        } else {
+          $(this).attr("target", "_blank");
+          $(this).attr("rel", "noreferrer");
+        }
+      });
+      
+      $("h2").each(function() {
+        let anchor = $(this).text();
+        anchor = anchor.replace(/\s+/g, '-').toLowerCase();
+        console.log(anchor);
+        $(this).attr("id", anchor);
+      });
+      
+      
       if ($(window).width() > 700) {
         $("div#bios-grid div.bio-wrapper").hover(function() {
           $(this).toggleClass("hover-bio");
