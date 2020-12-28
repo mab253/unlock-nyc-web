@@ -57,15 +57,19 @@
         margin-top: 100px;
       }
       #page h1 {
-          font-family: 'Roboto Mono', monospace;
-          font-size: 30px;
-          font-weight: 300;
+        font-size: 35px;
+        font-weight: 300;
       }
       #page h2 {
         font-size: 26px;
         font-weight: 600;
         text-transform: uppercase;
         margin-top: 50px;
+      }
+      #page h3 {
+        font-family: "Roboto Mono", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
       }
       #page a {
         font-weight: 900;
@@ -157,6 +161,22 @@
     $(document).ready(function() {
       $("h1.home-title").click(function() {
         window.location.href= "/";
+      });
+      
+      $("a[href^=http]").each(function() {
+        let address = $(this).attr("href");
+        if (address.indexOf("unlock") > -1) {
+        } else {
+          $(this).attr("target", "_blank");
+          $(this).attr("rel", "noreferrer");
+        }
+      });
+      
+      $("h2").each(function() {
+        let anchor = $(this).text();
+        anchor = anchor.replace(/\s+/g, '-').toLowerCase();
+        console.log(anchor);
+        $(this).attr("id", anchor);
       });
       
       if ($(window).width() > 700) {
