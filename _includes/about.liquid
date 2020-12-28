@@ -243,13 +243,24 @@
         }
       });
       
-      $("h2").each(function() {
+      $("h1, h2, h3").each(function() {
         let anchor = $(this).text();
+        anchor = anchor.replace(/\?/g, '');
+        anchor = anchor.replace(/\./g, '');
+        anchor = anchor.replace(/[0-9]/g, '');
+        anchor = anchor.trim();
         anchor = anchor.replace(/\s+/g, '-').toLowerCase();
-        console.log(anchor);
         $(this).attr("id", anchor);
       });
       
+      $("a[href^='#']").click(function(e) {
+        e.preventDefault();
+        let anchor = $(this).attr("href").replace("#", "");
+        let dimension = $("#" + anchor).offset().top;
+        $("body, html").animate({
+          scrollTop: dimension - 100
+        });
+      });
       
       if ($(window).width() > 700) {
         $("div#bios-grid div.bio-wrapper").hover(function() {
