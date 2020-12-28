@@ -19,7 +19,7 @@ Our Privacy Policy aims to answer the following questions:
 2. How do we use and share your information?
 3. Where and how do we store your information?
 
-## 1. What information do we collect from you? {#section-one}
+## 1. What information do we collect from you?
 
 ### We collect personal information that you share with us directly.
 
