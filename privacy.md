@@ -15,8 +15,8 @@ At Unlock NYC, we build free and inclusive technology that makes the apartment s
 
 Our Privacy Policy aims to answer the following questions:
 
-1. [What information do we collect from you?](#1.-What-information-do-we-collect-from-you?)
-2. How do we use and share your information?
+1. [What information do we collect from you?](#1.-What-information-do-we-collect-from you?)
+2. [How do we use and share your information?](#2.-How-do-we-use-and-share-your-information?)
 3. Where and how do we store your information?
 
 ## 1. What information do we collect from you?
