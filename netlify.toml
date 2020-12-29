@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://unlocknyc.org"
+  to = "https://weunlock.nyc"
+  status = 301
+  force = true
