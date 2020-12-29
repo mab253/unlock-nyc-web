@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://unlocknyc.org"
-  to = "https://weunlock.nyc"
+  from = "https://unlocknyc.org/*"
+  to = "https://weunlock.nyc/:splat"
   status = 301
   force = true
