@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/910fe5b89c.js" crossorigin="anonymous"></script>
-    <script async src="https://unlocknyc-analytics.netlify.app/tracker.js" data-ackee-server="https://unlocknyc-analytics.netlify.app" data-ackee-domain-id="d2255a40-e04e-4d2d-aa3a-b1b5da9cf52c" data-ackee-opts='{ "ignoreLocalhost": true, "detailed": true }'></script>
+    <script async src="https://unlocknyc-analytics.netlify.app/tracker.js" data-ackee-server="https://unlocknyc-analytics.netlify.app" data-ackee-domain-id="d2255a40-e04e-4d2d-aa3a-b1b5da9cf52c" data-ackee-opts='{ "ignoreLocalhost": true }'></script>
 <style>
       #banner {
         position: absolute;
@@ -230,6 +230,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
   <script>
     $(document).ready(function() {
+    
       $("h1.home-title").click(function() {
         window.location.href= "/";
       });
@@ -247,11 +248,23 @@
         let anchor = $(this).text();
         anchor = anchor.replace(/\?/g, '');
         anchor = anchor.replace(/\./g, '');
+        anchor = anchor.replace(/\+/g, '');
         anchor = anchor.replace(/[0-9]/g, '');
         anchor = anchor.trim();
         anchor = anchor.replace(/\s+/g, '-').toLowerCase();
         $(this).attr("id", anchor);
       });
+      
+      let currentAddress = window.location.href;
+      if (currentAddress.indexOf("#") > -1) {
+        let anchor = window.location.hash;
+        anchor = anchor.replace("#", "");
+        console.log(anchor);
+        let dimension = $("#" + anchor).offset().top;
+        $("body, html").animate({
+          scrollTop: dimension - 100
+        });
+      }
       
       $("a[href^='#']").click(function(e) {
         e.preventDefault();
