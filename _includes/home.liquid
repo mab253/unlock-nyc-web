@@ -60,11 +60,15 @@
     {% include home-info.liquid %}
     </section>
     <section id="report-bot" class="half">
-      <div id="coming-soon">
-        <h1>Coming Soon</h1>
-        <h2 class="banner-text">We think it should be quick and easy to report shady landlord behavior, every time. 
-        And, we think you deserve to know what happens to your report. That’s why we’re building free tools that will allow you to record your phone calls to 
-        apartments you’re interested in, and report discriminatory incidents. Stay tuned for more details!</h2>
+      <div id="report-bot-bg"></div>
+      <div id="report-bot-text">
+        <h1>Keep Hearing "We Don't Take Vouchers?"<br>Report It!</h1>
+        <h2 class="banner-text">Any time you suspect a landlord or broker is treating you differently because you have a voucher, report it here!</h2>
+        <h2 class="banner-text">You can tell us as much or as little about what happened as you want – and you can stay anonymous, or leave your name so we can follow up. Your reports help Unlock NYC and our <a href="/about#our-supporters-collaborators">partners</a> hold brokers and landlords accountable for discrimination.</h2>
+        <h2 class="banner-text">And, if you collected evidence, like a phone recording or a text message, you can request a formal investigation right from our tool.</h2>
+        <br>
+        <a class="report" href="/report" target="_blank">Start My Report</a>
+      </div>
     </section>
     <section id="faq" class="half" style="padding: 10%;
     padding-top: 50px;
@@ -128,7 +132,6 @@
             $("#menu").removeClass("sticky");
           });
         }
-        
       });
       
       $("section#faq h2").each(function(){
@@ -145,8 +148,38 @@
           $(this).children("i.fal").removeClass("fa-chevron-circle-down");
           $(this).children("i.fal").addClass("fa-chevron-circle-up");
         }
-        
       });
+      
+      $("#menu a").click(function(e) {
+        let link = $(this).attr("href");
+        if (link.indexOf("#") > -1) {
+          e.preventDefault();
+          let topoff;
+          let anchor = $(this).attr("href").replace("/#", "");
+          let dimension = $("#" + anchor).offset().top;
+          if ($(window).width() < 700) {
+            topoff = 0; 
+          } else {
+            topoff = 80;
+          }
+          $("body, html").animate({
+            scrollTop: dimension - topoff
+          });
+        }
+      });
+      
+
+      
+      let currentAddress = window.location.href;
+      if (currentAddress.indexOf("#") > -1) {
+        let anchor = window.location.hash;
+        anchor = anchor.replace("#", "");
+        console.log(anchor);
+        let dimension = $("#" + anchor).offset().top;
+        $("body, html").animate({
+          scrollTop: dimension - 100
+        });
+      }
                   
       function slideTextCheck() {
         $("#slider div.slide-text").each(function() {
@@ -177,6 +210,11 @@
           success:function(){
             console.log('submitted form');
             $("form#join-email input[type='submit']").attr("value", "Thank You");
+            $("form#join-email input[type='email']").css("border", 0);
+            $("form#join-email input[type='email']").val("We will be in touch!");
+            
+            
+            
           }
         });
       });
