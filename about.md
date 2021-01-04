@@ -8,9 +8,9 @@ pageTitle: About Us
 
 ## Our Story
 
-Our founding team met through [Blue Ridge Labs](https://labs.robinhood.org/ "Blue Ridge Labs") @ [Robin Hood](https://www.robinhood.org/ "Robin Hood"), a social impact incubator that brings together technologists, designers, and communities to address critical problems facing New Yorkers through new and untested solutions. During our research, we heard stories from dozens of New Yorkers who were repeatedly and unlawfully denied access to a home, simply because they received government assistance to pay for rent. Whether they were staying in a family shelter, living doubled-up with friends or relatives, or trying to leave a precarious living arrangement, they would call an apartment listing to schedule a viewing, and were met with the same range of responses, over and over again: “Sorry, the unit is no longer available,” “No vouchers,” “The landlord prefers a working professional,” or “We don’t take Section 8 here.”
+Our founding team met through [Blue Ridge Labs](https://labs.robinhood.org/ "Blue Ridge Labs") @ [Robin Hood](https://www.robinhood.org/ "Robin Hood"), a social impact incubator that brings together technologists, designers, and communities to address critical problems facing New Yorkers through new and untested solutions. During our research, we heard stories from dozens of New Yorkers who were repeatedly and unlawfully denied access to a home, simply because they received government assistance to pay for rent. Whether they were staying in a family shelter, doubled-up with friends or relatives, or trying to leave a precarious living arrangement, they would call an apartment listing to schedule a viewing and hear the same thing again and again: “No programs,” “The landlord prefers a working professional,” or “We don’t take your type of voucher here." 
 
-Often hiding in plain sight, discrimination happens in a split second over the phone, and can be tough to recognize, let alone document. As a result, countless New Yorkers remain homeless or in unsafe housing situations for months, if not years, and those who discriminate routinely profit from breaking the law.
+These practices, officially called "source of income discrimination" and commonly known as "voucher discrimination," [have been illegal in NYC since 2008](https://www1.nyc.gov/site/cchr/law/source-of-income.page "Source of Income Discrimination"), but still impact thousands of New Yorkers with housing assistance vouchers or subsidies, including CityFHEPS, FHEPS, Section 8, HASA, and more. Often hiding in plain sight, discrimination happens in a split second over the phone, and can be tough to recognize, let alone document. As a result, countless New Yorkers remain homeless or in unsafe housing situations for months, if not years, and those who discriminate routinely benefit from breaking the law.
 
 ## Our Approach
 
@@ -26,7 +26,7 @@ We’re a small and dedicated team that deeply believes in every human’s right
 
 {% include bios.liquid %}
 
-## Our Leadership Collective 
+## Our Leadership Collective
 
 At Unlock NYC, we value lived experience as expertise. Our tools are at their best when the people who use them are involved in big decisions from the start. As close collaborators and advisors to the Unlock NYC team, Leadership Collective members help shape the direction of our organization, and make sure that the knowledge, ideas, and vision of New Yorkers directly impacted by housing discrimination are at the heart of our work. Each Leadership Collective member brings a unique perspective and a set of skills to help inform strategic decisions.
 
