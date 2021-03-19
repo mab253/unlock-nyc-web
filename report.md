@@ -1,5 +1,5 @@
 ---
 layout: bot.liquid
-botLink: https://chats.landbot.io/v2/H-646979-88MI7VAAP4450QIV/index.html
+botLink: https://chats.landbot.io/v3/H-858316-1ZRGGUPWTO8ZX9BM/index.json
 
 ---
