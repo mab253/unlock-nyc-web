@@ -5,7 +5,7 @@ pageTitle: New User Form
 
 ---
 <style>
-  #banner, #menu, #titles-wrap {
+  #banner, #menu, #titles-wrap, #mobile-menu {
     display: none !important;
   }
   #page {
