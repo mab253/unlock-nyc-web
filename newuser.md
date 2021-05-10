@@ -4,4 +4,4 @@ linkedCSS: "/styles/site.css"
 pageTitle: New User Form
 
 ---
-<iframe src="https://airtable.com/shrwEj1kzyTcRDDxd" style="width: 100%; min-height: 800px;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrwEj1kzyTcRDDxd?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
