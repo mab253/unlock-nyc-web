@@ -5,22 +5,22 @@ pageTitle: Press
 
 ---
 <style>
-#page p {
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 85%;
+\#page p {
+display: inline-block;
+vertical-align: middle;
+max-width: 85%;
 }
-#page p img {
-  max-width: 90px;
-  margin-right: 40px;
+\#page p img {
+max-width: 90px;
+margin-right: 40px;
 }
 </style>
 
-## Press
+## Our Press
 
 ![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/fastcompany.png)
 
-_Fast Company_, World Changing Ideas - "[This chatbot helps New Yorkers report housing discrimination](https://www.fastcompany.com/90590837/this-chatbot-helps-new-yorkers-report-housing-discrimination)" 01.05.2021 
+_Fast Company_, World Changing Ideas - "[This chatbot helps New Yorkers report housing discrimination](https://www.fastcompany.com/90590837/this-chatbot-helps-new-yorkers-report-housing-discrimination)" 01.05.2021
 
 <br>
 
