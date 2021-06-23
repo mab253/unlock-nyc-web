@@ -4,14 +4,13 @@ linkedCSS: "/styles/site.css"
 pageTitle: Press
 
 ---
-
 <style>
-\#page p {
+#page p {
 display: inline-block;
 vertical-align: middle;
 max-width: 85%;
 }
-\#page p img {
+#page p img {
 max-width: 90px;
 margin-right: 40px;
 }
