@@ -4,18 +4,7 @@ linkedCSS: "/styles/site.css"
 pageTitle: Press
 
 ---
-<style>
-#page p {
-display: inline-block;
-vertical-align: middle;
-max-width: 70%;
-}
-#page p img {
-max-width: 90px;
-margin-right: 40px;
-}
-</style>
-
+<link rel="stylesheet" href="/styles/press.css">
 ## Our Press
 
 ![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/fastcompany.png)
