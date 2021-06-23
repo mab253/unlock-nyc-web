@@ -5,6 +5,18 @@ pageTitle: Press
 
 ---
 
+<style>
+\#page p {
+display: inline-block;
+vertical-align: middle;
+max-width: 85%;
+}
+\#page p img {
+max-width: 90px;
+margin-right: 40px;
+}
+</style>
+
 ## Our Press
 
 ![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/fastcompany.png)
@@ -15,7 +27,7 @@ _Fast Company_, World Changing Ideas - "[This chatbot helps New Yorkers report h
 
 ![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/pcmag-logo.png)
 
-_PC Mag,_ "[No Heat? Get Your Landlord's Attention With Cold, Hard Data From This Tiny Sensor](https://www.pcmag.com/news/no-heat-get-your-landlords-attention-with-cold-hard-data-from-this-tiny)" \[roundup of housing tech projects\] 02.11.2021
+_PC Mag, "_ "[No Heat? Get Your Landlord's Attention With Cold, Hard Data From This Tiny Sensor](https://www.pcmag.com/news/no-heat-get-your-landlords-attention-with-cold-hard-data-from-this-tiny)" \[roundup of housing tech projects\] 02.11.2021
 
 <br>
 
