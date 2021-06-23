@@ -8,7 +8,7 @@ pageTitle: Press
 #page p {
 display: inline-block;
 vertical-align: middle;
-max-width: 85%;
+max-width: 70%;
 }
 #page p img {
 max-width: 90px;
