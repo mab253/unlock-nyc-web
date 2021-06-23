@@ -6,12 +6,13 @@ pageTitle: Press
 ---
 <style>
 #page p {
-display: inline-block;
-vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 85%;
 }
 #page p img {
-max-width: 90px;
-margin-right: 40px;
+  max-width: 90px;
+  margin-right: 40px;
 }
 </style>
 
