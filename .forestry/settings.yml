@@ -39,7 +39,6 @@ sections:
 - type: document
   path: press.md
   label: Press
-  match: "**/*"
 - type: heading
   label: Fine Print
 - type: document
