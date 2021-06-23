@@ -4,6 +4,16 @@ linkedCSS: "/styles/site.css"
 pageTitle: Press
 
 ---
+<style>
+  #page p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #page p img {
+    max-width: 120px;
+    margin-right: 50px;
+  }
+</style>
 ## Press
 
 ![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/fastcompany.png)
