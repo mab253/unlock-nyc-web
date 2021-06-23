@@ -6,6 +6,8 @@ pageTitle: Press
 ---
 ## Press
 
+![](https://raw.githubusercontent.com/mab253/unlock-nyc-web/main/uploads/fastcompany.png)
+
 _Fast Company_, World Changing Ideas - "[This chatbot helps New Yorkers report housing discrimination](https://www.fastcompany.com/90590837/this-chatbot-helps-new-yorkers-report-housing-discrimination)" 01.05.2021
 
 _PC Mag,_ "[No Heat? Get Your Landlord's Attention With Cold, Hard Data From This Tiny Sensor](https://www.pcmag.com/news/no-heat-get-your-landlords-attention-with-cold-hard-data-from-this-tiny)" \[roundup of housing tech projects\] 02.11.2021
