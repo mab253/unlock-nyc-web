@@ -5,13 +5,13 @@ pageTitle: Press
 
 ---
 <style>
-\#page p {
+#page p {
 display: inline-block;
 vertical-align: middle;
 }
-\#page p img {
-max-width: 120px;
-margin-right: 50px;
+#page p img {
+max-width: 90px;
+margin-right: 40px;
 }
 </style>
 
